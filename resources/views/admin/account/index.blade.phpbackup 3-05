@@ -1,0 +1,189 @@
+@extends('admin.layoutnew')
+@section('content')
+    <div class="bodycontainer">
+        <div>
+            <div class="outerElem newListviewRevamp">
+                <div class="cvpadding cvbtnAnimate">
+                    <div class="affects newPLR25 newListOLY">
+                        <div class="lyte-table">
+                            <div class="lyteTableScroll">
+                                <div>
+                                    <div class="lyte-table-structure" style="width: 100%; height: 100%;">
+                                        <div class="lyte-tbody">
+                                            <div class="lyte-tr">
+                                                <lyte-td class="w50New">
+                                                    <span class="newListviewFilterIcon activeLabel">
+                                                        <span class="filterIcon">
+                                                        </span>
+                                                    </span>
+                                                </lyte-td>
+                                                <lyte-td>
+                                                    <div class="editWithRefIcon pR alignLeft">
+                                                        <div class="fL customViewDD lyte-dropdown">
+                                                            <div class="lyteDummyEventContainer">
+                                                                <div class="lyte-drop-button">
+                                                                    <span class="cVDropMax">
+                                                                        All Accounts
+                                                                    </span>
+                                                                    <div class="lyte-icon dropdown">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </lyte-td>
+                                                <lyte-td class="alignRight">
+                                                    <span class="customPluswithImpotBtnCon">
+                                                        <a href="{{ route('create_account') }}"><button class="customPlusBtn">Create Account</button> </a>
+                                                    </span>
+                                                    <span class="normalDropDown"> 
+                                                        <a href="{{ route('file-import-export-account') }}">
+                                                            <span class="dIB listViewMoreAction">Import </span> 
+                                                        </a>
+                                                    </span>
+                                                </lyte-td> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="actionDetailsArea alignCenter spaceBetween boxBB dF">
+                            <span class=" totalRecordsInNumbers  mWidth75" data-zcqa="lv_summaryArea">Total Records :  
+                                <span id="totalCountNo" class="newDarkColor">
+                                    <!--<img src="{{ asset('assets/css/moreloading_90b33f4_.gif') }}" alt="loading" width="10px;">-->
+                                    {{count($accounts)}}
+                                </span>
+                            </span>
+                            <!--<span class="flexAlignCenter">-->
+                            <!--    <span class="fL nLVKanbanViewSetting nRecPerPage">-->
+                            <!--        <div class="dash_currentOption crmSmallDropdown lyte-dropdown">-->
+                            <!--            <div class="lyteDummyEventContainer">-->
+                            <!--                <div class="lyte-drop-button">-->
+                            <!--                    <span class="lyteMarginRight lyteDropdownLabel" >50 Records Per Page-->
+                            <!--                    </span>-->
+                            <!--                    <div class="lyte-icon dropdown">-->
+                            <!--                    </div>-->
+                            <!--                </div>-->
+                            <!--            </div>-->
+                            <!--        </div>-->
+                            <!--    </span>-->
+                            <!--    <div class="mL10 flexAlignCenter" lyte-rendered="">-->
+                            <!--        <span class="pageCount crm-font-bold f14 fL mR10">1 - 50-->
+                            <!--        </span>-->
+                            <!--        <div class="lyte-navigator bgNavigator">-->
+                            <!--            <div class="lyteNavigator">-->
+                            <!--                <div class="lyteSingleBack lyteIconSingleBack lyteDisabled">-->
+                            <!--                </div>-->
+                            <!--                <div class="lyteSingleFront lyteIconSingleFront">-->
+                            <!--                </div>-->
+                            <!--            </div>-->
+                            <!--        </div>-->
+                            <!--    </div>-->
+                            <!--</span>-->
+                        </div>
+                    </div>
+                </div>
+                <div id="idForCV" class="idForCV pT0">
+                    <div class="viewcontainer fL vat newListOLY pR filterOn" style="width: calc(100% - 303px);">
+                        <div class="ltTable pR newListOLY listWAutoClass" style="min-height: 465px;">
+                            <div class="container-fluid">
+                                <div class="card shadow mb-4">
+                                    <div class="container-fluid"><br>
+                                        <div class="card-body">
+                                            <div class="table-responsive">
+                                                 <table class="export_example">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>
+                                                                Actions
+                                                            </th>
+                                                            <th>
+                                                            Account Name
+                                                            </th>
+                                                            <th> 
+                                                                Why added to ICP
+                                                            </th>
+                                                            <th> 
+                                                                Account Type
+                                                            </th>
+                                                            <th>
+                                                                Source
+                                                            </th>
+                                                            <th>
+                                                                Employees Count
+                                                            </th>
+                                                            <th>
+                                                                SIC Code
+                                                            </th>
+                                                            <th>
+                                                                Created by
+                                                            </th>
+                                                            <th>
+                                                                Notes
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        @foreach($accounts as $account)
+                                                            <tr>
+                                                                <td>
+                                                                   <a class="btn btn-primary btn-circle btn-sm"  href="{{route('view_account', $account->id)}}"  title="View"><i class="fas fa-eye"></i></a>
+                                                                    <a class="btn btn-success btn-circle btn-sm"  href="{{route('edit_account', $account->id)}}"  title="Edit"><i class="fas fa-edit"></i></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="{{route('view_account', $account->id)}}">{{$account->account_name}}</a>
+                                                                </td>
+                                                                <td> 
+                                                                    {{$account->added_to_icp}}
+                                                                </td>
+                                                                <td>
+                                                                    {{$account->account_type}}
+                                                                </td>
+                                                                <td>
+                                                                    {{$account->source}}
+                                                                </td>
+                                                                <td>
+                                                                    {{$account->employees_count}}
+                                                                </td>
+                                                                <td>
+                                                                    {{$account->sic_code}}
+                                                                </td>
+                                                                <td>
+                                                                    {{$account->created_by}}
+                                                                </td>
+                                                                <td>
+                                                                    {{$account->notes}}
+                                                                </td>
+                                                            </tr>  
+                                                        @endforeach
+                                                    </tbody>
+                                                </table>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>  
+                </div> 
+            </div> 
+        </div>
+    </div>
+    <style>
+        .dt-buttons{
+            display: none;
+        }
+        .export_example{
+            border: 2px solid #c3c5e0;
+        }
+        table {
+            table-layout:fixed;
+            width:95% !important;
+        }
+        td{
+            overflow:hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+@endsection

@@ -1,0 +1,4055 @@
+.stick {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: var(--e5e5e5) 0 1px 3px
+}
+
+.calculaterPopover {
+    box-shadow: rgba(0,0,0,.3) 0 3px 17px;
+    background: var(--bg_white);
+    border-color: var(--ddd);
+    padding: 15px;
+    border-radius: 5px;
+    width: 275px
+}
+
+.ltcreateAlert .alertHeader {
+    margin-bottom: 15px
+}
+
+.lcreate-t-innerContents::after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.lcreate-t-innerContents {
+    display: table-row
+}
+
+.lcreate-t-innerContents .heading_title {
+    display: table-cell;
+    vertical-align: top
+}
+
+.lcreate-t-innerContents .create-title-label {
+    display: table-cell;
+    vertical-align: middle!important
+}
+
+.lcreate-t-innerContents .create-title-ddsection {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.create-title-ddsection lyte-dropdown {
+    padding-left: 10px
+}
+
+.create-title-ddsection lyte-dropdown:last-of-type {
+    padding-right: 5px
+}
+
+.create-title-ddsection lyte-dropdown .trim-text {
+    max-width: 100%
+}
+
+.createSubFormTable .sortable-element-selected .lyteTableFixed {
+    transform: none!important
+}
+
+.lcreate-t-innerContents .create-title-right {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 37px
+}
+
+.crm-create-layout .create_button_comp {
+    display: inline-block;
+    float: right
+}
+
+.noresultstyleCPage {
+    outline: 0;
+    margin-top: -10px
+}
+
+.ddvalueforDisp .arrow {
+    left: 5px;
+    position: inherit
+}
+
+.create-layout,.create-titlebar {
+    background-color: var(--bg_white);
+    padding: 20px 0 10px;
+    border-bottom: 1px solid #eee;
+    font-family: var(--crm-font-regular);
+    font-size: var(--crm-extra-medium-font-size)
+}
+
+/*.stick+.lcrm-details-sections {*/
+/*    padding-top: 96px!important*/
+/*}*/
+
+.hiddenlayout {
+    display: inline-block
+}
+
+.editpl a {
+    color: var(--linkColor);
+    font-size: var(--crm-extra-medium-font-size);
+    text-decoration: underline;
+    font-family: var(--crm-font-regular)
+}
+
+.editpl a:hover {
+    color: var(--linkColor)
+}
+
+.create-layout {
+    background-color: var(--bg_eaeaea);
+    padding: 0;
+    box-shadow: 0 2px 3px var(--a7a7a7)
+}
+
+.lablfoot {
+    padding-top: 10px
+}
+
+.lcreate-t-contents {
+    display: table;
+    width: 100%
+}
+
+.ddvalueforDisp ..lyte-drop-button {
+    padding: 5px 10px!important;
+    border-radius: 5px
+}
+
+.ddvalueforDisp ..lyte-drop-button span {
+    font-size: var(--crm-base-font-size);
+    font-family: var(--crm-font-regular);
+    color: var(--baseColor)
+}
+
+.heading_title {
+    word-wrap: break-word;
+    font-size: var(--crm-large-font-size);
+    color: var(--headingColor);
+    font-family: var(--crm-font-bold)
+}
+
+.heading_title_inner {
+    display: table
+}
+
+.heading_title lyte-dropdown {
+    position: relative;
+    font-family: var(--crm-font-bold);
+    display: table-cell;
+    max-width: 350px
+}
+
+.heading_title .epl {
+    display: table-cell;
+    min-width: 105px
+}
+
+.lcrm-create-sections,.lcrm-details-sections {
+    padding: 30px 45px 30px 30px;
+    box-sizing: border-box
+}
+
+.lcrm-create-sections {
+    overflow: hidden
+}
+
+@media only screen and (max-width: 1490px) {
+    .lcrm-create-sections {
+        padding-right:45px
+    }
+}
+
+.create-footer {
+    padding-top: 25px
+}
+
+.crm-create-layout .enrichData {
+    opacity: 1;
+    pointer-events: all;
+    vertical-align: -webkit-baseline-middle;
+    display: none;
+    color: var(--linkColor);
+    outline: 0;
+    text-decoration: none;
+    margin: .7rem 3rem .5rem 0
+}
+
+.wiz_loading {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bg_white);
+    z-index: 20
+}
+
+.wiz_loading_gif {
+    display: inline-block;
+    width: 84px;
+    height: 84px;
+    transform: scale(.75);
+    background: url(//img.zohocdn.com/crm/CRMClient/images/wiz_loading_fdc8842_.gif) no-repeat
+}
+
+.wiz_alignCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.wiz_loading .wiz_loading_content {
+    font-size: var(--crm-extra-medium-font-size);
+    color: var(--linkColor);
+    letter-spacing: .2px
+}
+
+.lcrm-details-sections .lyteStepArrow lyte-step-item:first-of-type lyte-step-body::before {
+    content: '';
+    display: inline-block;
+    background: var(--crmLyteSprite) no-repeat -118px -26px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: -1px;
+    transform: scale(.8);
+    opacity: .6;
+    left: -19px
+}
+
+.lcrm-details-sections .lyteStepArrow lyte-step-body::after {
+    content: '';
+    margin-left: 10px;
+    display: inline-block;
+    background: var(--crmLyteSprite) no-repeat -115px -60px;
+    width: 4px;
+    height: 5px;
+    position: relative;
+    transform: scale(1.5);
+    top: -2px;
+    opacity: .5
+}
+
+.lcrm-details-sections .lyteStepArrow .lyteCompleted {
+    color: var(--baseColor)
+}
+
+.lcrm-details-sections .lyteStepArrow .lyteActive,.lcrm-details-sections .lyteStepArrow .lyteActive:last-of-type {
+    color: var(--linkColor);
+    font-family: var(--crm-font-bold)
+}
+
+.lcrm-details-sections .lyteStepArrow lyte-step-item {
+    margin-bottom: 11px
+}
+
+.crmCreateLayoutSwitchKey1 {
+    max-width: 700px
+}
+
+.cruxEnrichBold .alertPrimaryMsg {
+    text-align: left;
+    text-rendering: optimizeLegibility
+}
+
+.cruxEnrichBold .alertSecondaryMsg {
+    text-align: left;
+    font-family: var(--crm-font-bold)
+}
+
+.cruxEnrichBold .alertPopup {
+    width: 500px
+}
+
+.layout_loadingGif {
+    width: 62px
+}
+
+.zORFresh {
+    background-color: var(--bg_e7f2ff)
+}
+
+.zORBanner {
+    padding: 8px 0;
+    position: absolute;
+    top: calc(100% + 2px);
+    width: 100%
+}
+
+.zORViewed {
+    background-color: var(--bg_f8f8f8)
+}
+
+.zORUserPhoto {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: var(--bg_ddd)
+}
+
+.zORRecommendedUserDiv {
+    background: var(--bg_f7fbff);
+    padding: 10px 20px;
+    margin-top: 5px
+}
+
+.zORAvailableWrap .lytePopover {
+    border-radius: 5px
+}
+
+.fCLabel {
+    max-width: 120px
+}
+
+.ziaRecInfoblack {
+    background-position: 0 0;
+    height: 16px;
+    width: 16px;
+    display: inline-block
+}
+
+.ziaAssignLoader {
+    border: 2px solid var(--br_f3f3f3);
+    border-radius: 50%;
+    border-top: 2px solid var(--br_dddddd);
+    width: 20px;
+    height: 20px;
+    animation: 1s linear infinite spin;
+    position: absolute;
+    top: 5px;
+    margin-left: 10px
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.mainDetailsContainer,.singleContainer {
+    width: 100%
+}
+
+.taskContainer {
+    width: 50%
+}
+
+.singleContainer .customfieldValue,.taskContainer .customfieldValue {
+    align-self: flex-start;
+    flex: 1;
+    max-width: 58%;
+    min-width: 390px
+}
+
+.modalWrapper .quickCreateContainer .customfieldValue,.modalWrapper .singleContainer .customfieldValue {
+    max-width: 390px;
+    min-width: 390px
+}
+
+.modalWrapper .quickCreateContainer .crm-create-fields:last-of-type,.modalWrapper .singleContainer .crm-create-fields:last-of-type {
+    margin-bottom: 0
+}
+
+.create-two-column {
+    align-content: space-between;
+    column-gap: 20px;
+    justify-content: space-between
+}
+
+.create-two-column .container1,.create-two-column .container2 {
+    width: 48%
+}
+
+.svgIconsImg {
+    background-image: var(--crmSprite)!important
+}
+
+.copyAddWrapper {
+    min-width: 135px
+}
+
+.create-det-title {
+    font-size: var(--crm-base-font-size);
+    color: var(--headingColor);
+    font-family: var(--crm-font-bold)!important;
+    font-style: normal!important;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    position: relative
+}
+
+.crm-cs-inner {
+    max-width: 1440px
+}
+
+.crm-cs-inner.crm-subform-create-section {
+    max-width: calc(100vw - 75px)
+}
+
+/*!YUI-Compressor */
+@media screen and (max-width: 1441px) {
+    /*!YUI-Compressor */.create-titlebar .executeCustomButton {
+        max-width:150px
+    }
+}
+
+/*!YUI-Compressor */
+@media screen and (max-width: 1300px) {
+    /*!YUI-Compressor */.create-two-column .container1,.create-two-column .container2 {
+        width:49%
+    }
+
+    .lcreate-t-innerContents .heading_title {
+        padding-right: 1.5rem
+    }
+
+    .crm-cs-inner {
+        padding-right: 0
+    }
+}
+
+/*!YUI-Compressor */
+@media screen and (max-width: 1030px) {
+    /*!YUI-Compressor */.container1 .customfieldLabel,.container2 .customfieldLabel {
+        width:39%!important
+    }
+
+    .container1 .customfieldValue,.container2 .customfieldValue {
+        min-width: auto;
+        width: 59%
+    }
+}
+
+#secDiv_Zia_Call_Intelligence {
+    display: none
+}
+
+#preHTMLContainer>div#secDiv_Zia_Call_Intelligence {
+    display: block
+}
+
+.quickCreateModalOverLyteModal {
+    z-index: 350!important
+}
+
+.modulelookupOverLyteModal {
+    z-index: 400!important
+}
+
+.userLookupModal .lookupSearch {
+    width: 300px
+}
+
+.crmExistingEmailQuickInfoPopover .crmExistingEmailQuickInfoTable {
+    border: none
+}
+
+crm-create-sections .create-det-title .copy-add-section {
+    text-align: right;
+    margin-right: 0;
+    width: 47%
+}
+
+crm-create-sections .create-det-title #copyAddress {
+    margin-right: 0
+}
+
+.crm-create-fields .dummyInputForFocus {
+    border: none;
+    width: 1px!important;
+    max-width: 1px;
+    min-width: 1px;
+    min-height: 1px;
+    max-height: 1px;
+    padding: 0
+}
+
+.lccNFileAttachDrop lyte-menu-item {
+    padding: 1.1rem 1.5rem;
+    border-bottom: 1px solid var(--formBorder)
+}
+
+.lccNFileAttachDrop lyte-menu-item:last-of-type {
+    border-bottom: none
+}
+
+.lccNFileAttachDrop {
+    box-shadow: 0 10px 17px rgba(0,0,0,.3)
+}
+
+.crm-create-fields .taskSummaryMsg {
+    width: calc(100% - 54px)
+}
+
+.crm-create-fields .FLabel .cxFakeDropButton,.crm-create-fields .FLabel ..lyte-drop-button,.crm-create-fields .quickBorder ..lyte-drop-button,.crm-create-fields crux-number-component .lyte-input.lyteInputDisabled {
+    border: none!important
+}
+
+.createLazyLoad {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: var(--bg_EDF0F4);
+    overflow: hidden;
+    top: 0
+}
+
+.createLazyLoadRunner {
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(to right,#efefef,#dddddd70,#efefef);
+    position: absolute
+}
+
+.crm-create-fields .vplabelClass {
+    height: 36px;
+    width: 180px;
+    border-radius: 5px
+}
+
+.crm-create-fields .vpClass {
+    color: transparent;
+    height: 36px;
+    vertical-align: bottom;
+    display: inline-block;
+    position: relative;
+    padding: 17px 10px!important;
+    border-radius: 5px!important;
+    font-size: var(--crm-extra-medium-font-size);
+    word-wrap: break-word;
+    overflow: hidden;
+    box-sizing: border-box
+}
+
+.toolTClass {
+    text-align: left!important;
+    overflow-wrap: break-word!important;
+    word-wrap: break-word!important;
+    max-width: 375px!important;
+    transform: translateX(-2px);
+    width: max-content;
+    white-space: normal
+}
+
+.toolTClass.lyteTopright::before {
+    left: 10px!important;
+    width: 10px!important;
+    height: 10px!important
+}
+
+.uploadTooltipclass::before {
+    width: 10px!important;
+    height: 10px!important
+}
+
+.lcreateTooltip {
+    word-wrap: break-word!important;
+    max-width: 375px!important;
+    transform: translateX(-2px);
+    width: max-content
+}
+
+.relatedToDropButtonArrowMargin .lyteDropdownLabel,.whoAndWhatMargine .lyteDropPlaceholderNormal {
+    margin-right: 20px!important
+}
+
+.quickBorder {
+    width: 40%;
+    border-right: 1px solid var(--br_d6d6d6);
+    border-radius: 5px
+}
+
+.hideLookupSelection {
+    visibility: hidden
+}
+
+.spreviewDropbox lyte-drop-item .zTemplatePreview {
+    color: var(--linkColor);
+    font-size: var(--crm-small-font-size);
+    visibility: hidden;
+    z-index: 1;
+    position: absolute;
+    padding: 0 8px 1px;
+    background: var(--bg_e7f2ff);
+    right: 0;
+    top: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid var(--br_d9e8f9)
+}
+
+.spreviewDropbox lyte-drop-item:hover .zTemplatePreview {
+    visibility: visible
+}
+
+.crm-create-fields .surveyType1DD,.crm-create-fields .surveyType2DD {
+    width: 48%;
+    display: inline-block
+}
+
+.crm-create-fields .surveyType2DD {
+    width: 50%
+}
+
+.crm-create-fields {
+    margin-bottom: 20px;
+    display: block;
+    position: relative
+}
+
+.crm-create-fields .lyteErrorMsg {
+    min-width: inherit;
+    display: inline-block;
+    word-wrap: break-word;
+    clear: both;
+    width: 100%
+}
+
+.create-custom-err,.create-custom-err-temp,.sf-err,.crm-create-fields .lyteErrorMsg,crm-create-subformfields .lyteErrorMsg {
+    color: var(--negativeColor);
+    font-size: var(--crm-extra-small-font-size)
+}
+
+.sf-err {
+    display: block
+}
+
+.crm-create-fields.field,crm-create-sections .field {
+    height: auto;
+    width: auto;
+    padding-left: 0
+}
+
+.crm-create-fields .cNfileUpladBtn .dropdown-arrow,.crm-create-fields .readonlyF .userlookup {
+    pointer-events: none
+}
+
+.crm-create-fields .readonlyF .editModeOwnerdiv {
+    opacity: .5
+}
+
+.crm-create-fields .clear_lookupfield,.crm-create-fields .customfieldValue.mandatory::before,.crm-create-fields .cxFakeDropButton.mandatoryField::before,.crm-create-fields .mandatory .mandatoryField .lyteField::before,.crm-create-fields .mandatory .mandatoryField::before,.crm-create-fields .readonlyF .editModeOwnerdiv .tb_downarrow,.crm-create-fields .readonlyF .uiFieldIcon,.crm-create-fields lyte-autocomplete .lyte-input[lt-prop-type=search] .searchIcon,.crm-create-fields lyte-autocomplete.Company .closeIcon,.crm-create-fields lyte-dropdown.cxBoxDropdown.mandatoryField ..lyte-drop-button::before,crm-create-subformfields .lyteDropdown-disabled .dropdown,crm-create-subformfields .readonlyF .lyteDropdown-disabled::after,crm-create-subformfields .readonlyF .lyteField::after {
+    display: none
+}
+
+.readonlyF .lyteField::after {
+    clip-path: none
+}
+
+.readonlyF crux-user-dropdown .lyteDropdownLabel,.readonlyF crux-user-dropdown .lyteMarginRight {
+    white-space: normal;
+    word-break: break-word;
+    color: var(--baseColor)
+}
+
+.crm-create-fields .editModeOwnerspan {
+    padding: 6px 10px!important;
+    overflow: hidden;
+    line-height: 18px;
+    display: inline-block;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: transparent;
+    max-width: 92%;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.crm-create-fields .editModeOwnerdiv .tb_downarrow {
+    width: 9px;
+    height: 5px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 2px)
+}
+
+crm-create-sections .lyteMultiselectInput input {
+    padding: 0!important;
+    border: 0!important
+}
+
+crm-create-sections .lyteMultiselectInput {
+    border: 0!important
+}
+
+.crm-create-fields .lyteMultipleSelect,.crm-create-fields .lyteMultiselect,crm-create-subformfields .lyteMultipleSelect,crm-create-subformfields .lyteMultiselect {
+    display: block
+}
+
+crm-create-subformfields .lyteMultiselectInput {
+    background: 0 0!important
+}
+
+.subFrmFormulaFld .textField {
+    overflow-x: auto
+}
+
+.crm-create-fields .uploadDoc lyte-button {
+    display: block;
+    margin: 0
+}
+
+.uploadDoc .cD button {
+    cursor: default
+}
+
+.crm-create-fields .createmxnlookupDIV,.crm-create-fields .editModeOwnerdiv,.crm-create-fields .uploadDoc .cP button {
+    cursor: pointer
+}
+
+.cNfileUpladBtn .lyteDefaultBtn,.crm-create-fields .create-fmax-limit.uploadDoc .lyteDefaultBtn,.crm-create-fields .uploadDoc .lyteDefaultBtn {
+    width: 100%;
+    text-align: left;
+    border: 1px solid var(--formBorder);
+    padding-left: 10px;
+    padding-right: 10px;
+    background: var(--bg_white);
+    box-shadow: none;
+    border-radius: 5px;
+    font-family: var(--crm-font-regular)
+}
+
+.crm-create-fields .uploadDoc .lyteDefaultBtn:active,crm-create-subformfields .uploadDoc .lyteDefaultBtn:active {
+    top: 0
+}
+
+.createlookuploader {
+    right: 50px!important;
+    background: var(--bg_white);
+    top: 4px
+}
+
+.crm-create-fields .custabDivCreate {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-wrap: nowrap
+}
+
+.custabDivCreate.atCustTabDiv {
+    flex-wrap: wrap!important
+}
+
+.container2 .crm-create-fields .custabDivCreate {
+    justify-content: flex-end
+}
+
+.customfieldValue {
+    position: relative;
+    vertical-align: bottom
+}
+
+.container1 .customfieldValue,.container2 .customfieldValue {
+    min-width: 230px;
+    max-width: 390px;
+    align-self: flex-start;
+    flex: 1
+}
+
+.customfieldLabel,.subformAggLabel {
+    box-sizing: border-box;
+    position: relative;
+    color: var(--labelColor);
+    line-height: 17px;
+    word-wrap: break-word;
+    word-break: break-word
+}
+
+.customfieldLabel {
+    padding-right: 20px;
+    justify-content: flex-end;
+    display: inline-flex;
+    text-align: right;
+    padding-top: 9px;
+    align-items: flex-start
+}
+
+.container1 .customfieldLabel,.container2 .customfieldLabel {
+    min-width: 0;
+    overflow-wrap: anywhere
+}
+
+.custom-layout-field .custom-layout-text,.customfieldValue .cxTextarea .lyteField,.customfieldValue input,.crm-create-fields .uploadDoc .lyteDefaultBtn {
+    padding-top: 8px;
+    padding-bottom: 8px
+}
+
+.custom-layout-field .custom-layout-text {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.custom-layout-field .custom-layout-text,.crm-create-fields .customFieldValueData {
+    border-radius: 5px
+}
+
+.custom-layout-field .custom-layout-text,.customfieldValue .cxTextarea .lyteField,.customfieldValue input,.crm-create-fields .customFieldValueData {
+    vertical-align: bottom;
+    display: inline-block;
+    position: relative;
+    color: var(--baseColor);
+    transition: border .3s ease-out,box-shadow .3s ease-out;
+    border: 1px var(--formBorder) solid!important;
+    word-wrap: break-word;
+    box-sizing: border-box
+}
+
+.custom-layout-field .custom-layout-text,.customfieldValue .cxTextarea .lyteField,.customfieldValue input,.crm-create-fields .customParentField,.crm-create-fields .uploadDoc .lyte-button,.crm-create-fields .vpClass {
+    transition: border .3s ease-out,box-shadow .3s ease-out
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected],.crm-create-fields .createSelect .select2-selection__rendered,crm-create-subformfields .createSelect .select2-selection__rendered {
+    color: var(--baseColor)!important
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background: var(--bg_e7f2ff)!important
+}
+
+.customfieldValue .cxTextarea .lyteField {
+    padding: 0!important;
+    overflow: hidden
+}
+
+.crm-create-fields .cxTextarea {
+    display: inline-block;
+    z-index: 0
+}
+
+.crm-create-fields textarea,crm-create-subformsection .ddInvMultiLine {
+    padding-right: 25px!important
+}
+
+.customParentField:not(.cuserrorFborder):hover,.customfieldValue:not(.cuserrorFborder) .cxTextarea .lyteField:hover,.crm-create-fields .cNfileUpladBtn:hover .lyte-button,.crm-create-fields .customFieldValueData:hover,.crm-create-fields .customParentField:hover,.crm-create-fields .lyte-input input:hover {
+    border: 1px var(--formBorderHover) solid!important
+}
+
+.crm-create-fields .customFieldValueData {
+    max-width: 100%
+}
+
+crm-create-subformfields .LyteSForm_focus .nonLyte_LyteSForm .select2-container--default .select2-selection--single,crm-create-subformfields .LyteSForm_focus .nonLyte_LyteSForm+.textField,crm-create-subformfields .sfUserLookup.custHighlSfUlBorder,crm-create-subformfields .sfUserLookup.custHighlSfUlBorder:hover {
+    box-shadow: 0 0 6px var(--formBoxShadowFocus)!important;
+    border: 1px var(--formBorderFocus) solid!important
+}
+
+.crm-create-fields .create-customf-inner .lyte-input input:disabled:hover {
+    border: none!important
+}
+
+.customfieldValue .cxTextarea.lyteInputFocus .lyteField,.customfieldValue:not(.cuserrorFborder) .cxTextarea.lyteInputFocus .lyteField,.crm-create-fields .lyteDummyEventContainer:focus ..lyte-drop-button,.crm-create-fields lyte-button button:focus,.crm-create-fields .lyte-input input:focus {
+    box-shadow: 0 0 6px var(--formBoxShadowFocus)!important;
+    border: 1px solid var(--formBorderFocus)!important;
+    border-radius: 5px
+}
+
+.crm-create-fields .cuserrorFborder .cxTextarea .lyteField,.crm-create-fields .cuserrorFborder .cxTextarea.lyteInputFocus .lyteField,.crm-create-fields .cuserrorFborder .lyteDummyEventContainer:focus ..lyte-drop-button,.crm-create-fields .cuserrorFborder .lyteField input,.crm-create-fields .cuserrorFborder ..lyte-drop-button,.crm-create-fields .cuserrorFborder .lyte-drop-button:hover,.crm-create-fields .customParentField.cuserrorFborder,.crm-create-fields .errorFieldP .cNfileUpladBtn:hover .lyte-button,.crm-create-fields .errorFieldP .uploadDoc .lyte-button,crm-create-subformfields .uploadDoc .errorFieldP .lyte-button,crm-create-subformfields .uploadDoc:hover .errorFieldP .lyte-button {
+    border: 1px var(--formBorderError) solid!important
+}
+
+.crm-create-fields .cuserrorFborder .cxTextarea .lyteField,.crm-create-fields .cuserrorFborder .cxTextarea.lyteInputFocus .lyteField,.crm-create-fields .cuserrorFborder .lyteDummyEventContainer:focus .lyte-drop-button,.crm-create-fields .cuserrorFborder .lyteField input,.crm-create-fields .cuserrorFborder .lyteInputBox.lyteInputFocus .lyteField,.crm-create-fields .cuserrorFborder .lyte-drop-button,.crm-create-fields .cuserrorFborder .lyte-drop-button:hover,.crm-create-fields .customParentField.cuserrorFborder,.crm-create-fields .customParentField.cuserrorFborder .lyteField,.crm-create-fields .errorFieldP .uploadDoc .lyte-button:focus {
+    box-shadow: none!important
+}
+
+.ddMultiSelectDiv {
+    max-height: 165px;
+    overflow-y: auto
+}
+
+.ddMultiSelectDiv .ddMultiSelectLi {
+    max-width: 100%;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    margin-bottom: 3px
+}
+
+crm-create-subformfields .ddMultiSelectDiv .ddMultiSelectLi {
+    word-break: break-word
+}
+
+crm-create-subformfields .selectedSubformRow lyte-td .lyteInputBox .lyteField {
+    background: 0 0
+}
+
+crm-create-subformsection .subFrmMulSelFld .ddMultiSelectEmptySpan {
+    float: none;
+    min-width: 150px;
+    height: 18px;
+    display: inline-block;
+    visibility: hidden;
+    margin: -3px 0 0
+}
+
+.readonlyF .customParentField:hover,.readonlyF .lyteInputFocus .lyteField,.readonlyF .lyteInputFocus .lyteField:hover,.reportToreadonlyF .customParentField:hover,.crm-create-fields .readonlyF .lyte-input input:focus {
+    border: 1px solid var(--formBorderDisabled)
+}
+
+.crm-create-fields .uploadDoc .lyteDefaultBtn:hover {
+    box-shadow: none!important;
+    border: 1px var(--formBorderHover) solid!important
+}
+
+.crm-create-fields .uploadDoc .lyteDefaultBtn:active {
+    border: 1px var(--formBorder) solid!important;
+    box-shadow: 0 0 6px #c3c6ca!important;
+    top: 0!important
+}
+
+.crm-create-fields .uploadDoc .lyteDefaultBtn:focus,.crm-create-fields .uploadDoc .lyteDefaultBtn:focus:hover {
+    box-shadow: 0 0 6px var(--formBoxShadowFocus)!important;
+    border: 1px var(--formBorderFocus) solid!important
+}
+
+.crm-create-fields .imgUploadCont.create-file-readonly:hover,.crm-create-fields .uploadDoc.create-file-readonly .lyteDefaultBtn,.crm-create-fields .uploadDoc.create-file-readonly .lyteDefaultBtn:hover {
+    box-shadow: none!important;
+    border: 1px var(--formBorder) solid!important
+}
+
+.subFrmTablWrapper .create-file-readonly .lyteDefaultBtn,.subFrmTablWrapper .create-file-readonly .lyteDefaultBtn:hover,.crm-create-fields .uploadDoc.create-file-readonly .lyteDefaultBtn,.crm-create-fields .uploadDoc.create-file-readonly .lyteDefaultBtn:hover {
+    background: var(--formBackgroundDisabled)
+}
+
+.crm-create-fields .errorFieldP .uploadDoc .lyteDefaultBtn:focus,.crm-create-fields .errorFieldP .uploadDoc .lyteDefaultBtn:focus:hover {
+    border: 1px var(--formBorderError) solid!important;
+    box-shadow: none!important
+}
+
+.crm-create-fields .lyte-input .lyteField {
+    top: 0;
+    padding: 0!important;
+    width: 100%;
+    border: 0!important;
+    box-shadow: none!important
+}
+
+.crm-create-fields .lyte-input.resizeStart {
+    transition: none!important
+}
+
+.crm-create-fields lyte-dropdown.cxBoxDropdown .lyteDummyEventContainer:focus .lyte-drop-button,.crm-create-fields lyte-dropdown.cxBoxDropdown .lyteDummyEventContainer:focus .lyte-drop-button:hover,.crm-create-fields lyte-dropdown.cxBoxDropdown[lt-prop-type=multiple] .lyte-drop-button.lyteDropButtonDown,.crm-create-fields lyte-dropdown.cxBoxDropdown[lt-prop-type=multiple] .lyte-drop-button.lyteDropButtonUp,.crm-create-fields lyte-dropdown.cxBoxDropdown[lt-prop-type=multisearch] .lyte-drop-button.lyteDropButtonDown,.crm-create-fields lyte-dropdown.cxBoxDropdown[lt-prop-type=multisearch] .lyte-drop-button.lyteDropButtonDown:hover,.crm-create-fields lyte-dropdown.cxBoxDropdown[lt-prop-type=multisearch] .lyte-drop-button.lyteDropButtonUp,.crm-create-fields lyte-dropdown.cxBoxDropdown[lt-prop-type=multisearch] .lyte-drop-button.lyteDropButtonUp:hover,.crm-create-fields lyte-dropdown.cxBoxDropdown[lt-prop-type=multisearch] .lyte-drop-button:hover {
+    border: 1px solid transparent;
+    box-shadow: none
+}
+
+.crm-create-fields lyte-dropdown[lt-prop-type=multisearch].lyteDropNoOptSelected .lyte-drop-button {
+    padding-top: 5px
+}
+
+.crm-create-fields .readonlyF lyte-dropdown[lt-prop-type=multisearch] .lyte-drop-button {
+    max-height: initial;
+    padding-right: 25px!important
+}
+
+.readonlyF .lyteDropdownTextField,.readonlyF .lyteMultiselectInput .lyteInputFocus .lyteField,.readonlyF .lyteMultiselectInput lyte-search input,.readonlyF .lyteMultiselectInput lyte-search input:focus {
+    padding: 0;
+    border: none!important;
+    pointer-events: none
+}
+
+.readonlyF .lyteMultipleSelect .lyteCloseIcon {
+    display: none
+}
+
+.crm-create-fields .lyteMultiselectInput input:focus {
+    border-radius: 0
+}
+
+.crm-create-fields .customParentField.custHighlBorder:not(.cuserrorFborder),.crm-create-fields .customParentField.highlBorder:not(.cuserrorFborder),.crm-create-fields .lcMSelectLookupModalOpen:not(.cuserrorFborder) {
+    border-radius: 5px!important;
+    box-shadow: 0 0 6px var(--formBoxShadowFocus)!important;
+    border: 1px var(--formBorderFocus) solid!important
+}
+
+.crm-create-fields .lyteDropPlaceholderMultiple {
+    padding: 0
+}
+
+.ui27_dd,.ui27_inp {
+    float: left
+}
+
+.ui27_dd {
+    width: 94px
+}
+
+.ui27_inp {
+    width: calc(100% - 95px)
+}
+
+.ui_icons {
+    display: inline-block;
+    width: 100%
+}
+
+.ui22_inp {
+    display: inline-block
+}
+
+.ui27_inp input {
+    border-radius: 0 5px 5px 0;
+    left: 1px
+}
+
+.create-survey-dd .lyte-drop-button {
+    border: none!important;
+    box-shadow: none!important
+}
+
+.crm-lytecreate-crux .lyte-drop-button,.crm-lytecreate-crux lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button.lyteDropButtonDown,.crm-lytecreate-crux lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button.lyteDropButtonUp,.cuserrorFborder .create-survey-dd lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyteDummyEventContainer:focus .lyte-drop-button,.cuserrorFborder .create-survey-dd lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button.lyteDropButtonDown,.cuserrorFborder .create-survey-dd lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button.lyteDropButtonUp,.customParentField .lyteDummyEventContainer:focus .lyte-drop-button,.customParentField input,.customParentField input:focus,.customParentField input:hover,.customParentField lyte-autocomplete .lyteField:hover,.customParentField lyte-autocomplete .lyteInputBox.lyteInputFocus:not(.readonlyF) .lyteField,.customParentField lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button.lyteDropButtonDown,.customParentField lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button.lyteDropButtonUp,.readonlyF lyte-autocomplete .lyteInputFocus .lyteField,.readonlyF lyte-autocomplete .lyteInputFocus .lyteField input:focus,.readonlyF lyte-autocomplete .lyteInputFocus .lyteField:hover,.crm-create-fields .cuserrorFborder .create-survey-dd .lyteDummyEventContainer .lyte-drop-button,.crm-create-fields .customParentField.cuserrorFborder .lyte-drop-button,.crm-create-fields .ui-field-icon.cuserrorFborder crux-user-dropdown .lyteDummyEventContainer:focus .lyte-drop-button,.crm-create-fields .ui-field-icon.cuserrorFborder crux-user-dropdown .lyte-drop-button,.crm-create-fields .ui-field-icon.cuserrorFborder crux-user-dropdown .lyte-drop-button:hover {
+    border: none!important;
+    box-shadow: none!important;
+    vertical-align: middle;
+    caret-color: currentColor
+}
+
+.crm-create-fields .customParentField .create-survey-type {
+    margin-right: -2px;
+    border-right: 1px solid var(--br_c0c6cc)
+}
+
+.crm-create-fields .customParentField .create-survey-type:last-of-type {
+    margin-right: 0;
+    border-right: none
+}
+
+.customParentField .lyteInputBox .lyteField:hover,.customParentField .lyteInputBox.lyteInputFocus .lyteField {
+    box-shadow: none
+}
+
+.customParentField .ui27_dd .lyteDummyEventContainer:focus .lyte-drop-button,.ui27_dd lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyteDummyEventContainer:focus .lyte-drop-button,.ui27_dd lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button.lyteDropButtonDown,.ui27_dd lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button.lyteDropButtonUp,.crm-create-fields .ui27_dd .lyte-drop-button,.crm-create-fields .ui27_dd .lyte-drop-button:hover {
+    border: none;
+    border-right: 1px solid var(--formBorder)!important;
+    border-radius: 6px 0 0 6px;
+    background: 0 0
+}
+
+.crm-create-fields .ui786_date,.crm-create-fields .ui786_time {
+    width: calc(50% - 2px);
+    vertical-align: top;
+    display: inline-block
+}
+
+.crm-create-fields .sepeartor {
+    top: 0;
+    height: 100%;
+    width: 1px;
+    left: calc(50% - 1px)
+}
+
+.crm-create-fields .crm_phone_field .textField,.crm-create-fields .customParentField,.crm-create-fields .eventCreateContainer .textField {
+    border-radius: 5px
+}
+
+.crm-create-fields .crm_phone_field .textField {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.crm-create-fields .customParentField {
+    border: 1px solid var(--formBorder);
+    box-sizing: border-box
+}
+
+.crm-create-fields .customParentField.imgUploadContReadOnly,.crm-create-fields .customParentField.imgUploadContReadOnly:hover,.crm-create-fields .customParentField.noImageWrapContainer,.crm-create-fields .customParentField.noImageWrapContainer:hover {
+    border: none!important
+}
+
+.readonlyF .addImageWrap:hover {
+    background-color: var(--bg_edf6ff)
+}
+
+.crm-create-fields .imgUploadContReadOnly .uploadedImageList {
+    padding: 0!important
+}
+
+.crm-create-fields .fieldPrefix {
+    display: inline-flex;
+    color: var(--labelColor);
+    opacity: .6;
+    position: relative;
+    padding: 0 3px 0 10px;
+    align-items: center;
+    justify-items: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.create-customf-inner {
+    display: flex
+}
+
+:not(crm-create-subformfields)>.crm-create-fields .uiFieldIcon {
+    width: 32px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background: var(--bg_F0F4FF);
+    border-radius: 0 6px 6px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.create-fmax-limit lyte-button .lyteDefaultBtn {
+    background: var(--formBackgroundDisabled)
+}
+
+.crm-create-fields lyte-autocomplete {
+    display: block
+}
+
+.crm-create-fields .cxBoxDropdown .lyteDropdownVisible,.crm-create-fields .cxFlatDropdown .lyteDropdownVisible {
+    white-space: normal;
+    word-break: break-all
+}
+
+.crm-create-fields .createmxnlookupDIV .MultiLookupInp,.crm-create-fields .ui-field-icon lyte-autocomplete input {
+    padding-right: 70px!important;
+    text-overflow: ellipsis;
+    width: 100%!important;
+    border-radius: 5px;
+    padding-left: 10px!important
+}
+
+.crm-create-fields .readonlyF .ui-field-icon lyte-autocomplete input {
+    padding-right: 30px!important
+}
+
+.createDDLookup crux-user-dropdown,.crm-create-fields .lyteDropPlaceholderNormal,.crm-create-fields .lyteDropdownLabel,.crm-create-fields .ui-field-icon crux-user-dropdown,.crm-create-fields .ui-field-icon crux-user-dropdown .lyteDropdownLabel,.crm-create-fields .ui-field-icon crux-user-dropdown .lyteMarginRight,.crm-create-fields lyte-dropdown[lt-prop-type=multiple] .lyteDropPlaceholderMultiple,crm-create-subformfields .ui_icons {
+    width: calc(100% - 30px)
+}
+
+.crm-create-fields .readonlyF crux-user-dropdown,.crm-create-fields .ui-field-icon lyte-autocomplete {
+    width: 100%;
+    max-width: 100%;
+    display: block
+}
+
+.ui27_dd .lyteDropPlaceholderNormal,.ui27_dd .lyteDropdownLabel {
+    width: 100%!important
+}
+
+.crm-create-fields crux-user-dropdown .lyteDummyEventContainer {
+    max-width: calc(100% - 30px)
+}
+
+.crm-create-fields crux-user-dropdown lyte-icon.dropdown {
+    display: none
+}
+
+.createDDLookup crux-user-dropdown lyte-icon.dropdown,.lcSingleUser crux-user-dropdown lyte-icon.dropdown {
+    display: block
+}
+
+.createmultiuserlookupfld crux-user-dropdown .lyteDummyEventContainer,.readonlyF crux-user-dropdown .lyteDummyEventContainer,crm-create-subformfields .sfUserLookup crux-user-dropdown .lyteDummyEventContainer {
+    max-width: 100%
+}
+
+.crm-create-fields .ui-field-icon.lcSingleUser crux-user-dropdown .dropdown {
+    right: 10px
+}
+
+.crm-create-fields .lcSingleUser .ico-close-small2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 34px;
+    display: block;
+    width: 20px;
+    white-space: pre-line;
+    transform: translateY(-40%) translateX(-20%);
+    z-index: -1
+}
+
+.crm-create-fields .customParentField lyte-autocomplete .lyte-drop-button,.crm-create-fields .customParentField lyte-autocomplete .lyte-drop-button:hover {
+    padding: 0!important;
+    border: 0!important;
+    box-shadow: none!important
+}
+
+.crm-create-btn-dbox .customButtonSortable lyte-drop-item:hover,.crm-create-btn-dbox .lyteDropdownSelection,.crm-create-btn-dbox lyte-drop-footer .drop-item-dummy:hover {
+    background: var(--lyteDropItemSelected)!important
+}
+
+.customControlothrs lyte-button button {
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    background-color: var(--bg_white)!important;
+    color: var(--baseColor)!important;
+    border-radius: 3px;
+    top: -4px;
+    font-size: var(--crm-extra-medium-font-size)!important
+}
+
+.customControlothrs:hover lyte-button button {
+    border: 1px solid var(--br_d2d2d2)!important
+}
+
+.customControlothrs .errMsg.errorMsgDesc {
+    min-width: 100%;
+    white-space: nowrap;
+    right: 0
+}
+
+.createAutocomplete .info_icon,.crm-create-fields .info_icon,.crm-create-fields .tooltipIdentity,crm-create-subformsection .info_icon {
+    visibility: visible;
+    position: absolute;
+    top: 10px;
+    width: 14px;
+    height: 14px;
+    opacity: .6;
+    right: 19px
+}
+
+.subformAggTable .info_icon,.crm-create-fields .info_icon,crm-create-subformsection .crmFormTable .info_icon {
+    opacity: .4
+}
+
+crm-create-subformsection .info_icon,crm-create-subformsection .subformTooltip.info_icon {
+    right: 3px
+}
+
+.create-det-title .contHeadInfo {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.create-det-title .subformTooltip.info_icon,crm-create-subformsection lyte-th .subformTooltip.info_icon {
+    margin-left: 5px;
+    right: inherit
+}
+
+.create-det-title .subformTooltip.info_icon {
+    top: 20%
+}
+
+crm-create-subformsection lyte-th .subformTooltip.info_icon {
+    top: 23%
+}
+
+.subFrmLayout .subformAggTable .subformTooltip {
+    top: -2px;
+    position: relative
+}
+
+.crm-create-fields .customfieldLabel.haveTooltip {
+    padding-right: 37px!important
+}
+
+.ui786_date .lyte-input:not(.lyteInputBox),.ui786_date .lyte-input:not(.lyteInputBox):hover {
+    border-bottom: 0
+}
+
+.spanTarea {
+    white-space: pre-line;
+    position: fixed;
+    left: -100000px;
+    bottom: 0;
+    transform: translateX(-100000px);
+    word-break: break-word;
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0
+}
+
+.userlookup {
+    background-position: -267px -421px;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 1px
+}
+
+.foricons {
+    vertical-align: -webkit-baseline-middle;
+    cursor: pointer
+}
+
+.crm-create-fields .uiFieldIcon .foricons::after {
+    content: '';
+    position: absolute;
+    background: 0 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1
+}
+
+.relatedto {
+    background-position: -310px -325px;
+    width: 16px;
+    height: 17px
+}
+
+.FlookupDeals {
+    background-position: -311px -383px;
+    width: 14px;
+    height: 16px
+}
+
+.FlookupSales_Orders {
+    background-position: -312px -498px;
+    width: 13px;
+    height: 16px
+}
+
+.FlookupVendors {
+    background-position: -310px -411px;
+    width: 14px;
+    height: 16px
+}
+
+.FlookupSearchicon {
+    width: 14px;
+    height: 16px
+}
+
+.FlookupProducts {
+    background-position: -312px -613px;
+    width: 15px;
+    height: 17px
+}
+
+.FlookupAccounts {
+    width: 15px;
+    height: 16px;
+    background-position: -310px -355px
+}
+
+.FlookupCampaigns {
+    background-position: -311px -471px;
+    width: 17px;
+    height: 13px
+}
+
+.FlookupLeads {
+    background-position: -310px -299px;
+    width: 18px;
+    height: 13px
+}
+
+.FlookupPurchase_Orders {
+    background-position: -312px -555px;
+    width: 16px;
+    height: 17px
+}
+
+.FlookupInvoices {
+    background-position: -312px -583px;
+    width: 15px;
+    height: 18px
+}
+
+.FlookupQuotes {
+    background-position: -311px -528px;
+    width: 14px;
+    height: 16px
+}
+
+.FlookupContacts {
+    background-position: -310px -325px;
+    width: 16px;
+    height: 17px
+}
+
+.FlookupPrice_Books {
+    background-position: -311px -670px;
+    width: 16px;
+    height: 15px
+}
+
+.FlookupCases {
+    background-position: -311px -642px;
+    width: 16px;
+    height: 13px
+}
+
+.FlookupSolutions {
+    background-position: -312px -697px;
+    width: 14px;
+    height: 16px
+}
+
+.FlookupcustomModule {
+    background-position: -309px -907px;
+    width: 16px;
+    height: 15px
+}
+
+.ui786_date .lyteField,.ui786_time .lyteField,.ui_icons .lyteField {
+    border: 0
+}
+
+.ui786_date .lyteField input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.ui786_time .lyteField input,.ui_icons .lyteField input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+#ui27dd .lyte-drop-button {
+    border: 0;
+    border-right: 1px solid #eee
+}
+
+.crm-create-fields .paddingTwo {
+    padding: 2px!important
+}
+
+.customControl,.customControlforTask,.customControlnew,.customControlothrs,.customControltxtarea {
+    color: var(--baseColor);
+    width: 59.7%;
+    vertical-align: bottom;
+    display: inline-block;
+    position: relative;
+    padding: 7px 0 5px!important;
+    top: 1px
+}
+
+.customControltxtarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--br_f0f0f0)!important;
+    padding: 0!important
+}
+
+.customControlnew {
+    border-bottom: 1px solid transparent
+}
+
+.pRtop {
+    position: relative!important;
+    top: 1px!important
+}
+
+.arrowIconTopDD::after {
+    border-bottom-color: var(--br_000)!important
+}
+
+.arrowIconBottomDD::after {
+    border-top-color: var(--br_000)!important
+}
+
+.crm-create-fields .readonlyF.tabDivCreate:hover {
+    border-bottom: none!important
+}
+
+.crm-create-fields .checkBoxF {
+    border: none;
+    padding-left: 0!important
+}
+
+.info-outline-icon {
+    background-position: -332px -72px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 7px;
+    right: 6px;
+    opacity: .7
+}
+
+.pickListpadding {
+    padding: 0!important
+}
+
+.crm-create-fields .pickListpadding lyte-dropdown {
+    width: 100%;
+    vertical-align: top;
+    max-width: 100%
+}
+
+.customParentField.cuserrorFborder .lyteField input,.crm-create-fields crux-user-dropdown .lyte-drop-button {
+    border: none!important;
+    box-shadow: none!important
+}
+
+.crm-create-fields .lyte-input {
+    width: 100%
+}
+
+.readonlyF .customfieldValue.custom-layout-field:not(.imguploadDoc) span {
+    border: 1px var(--formBorderDisabled) solid!important;
+    background: var(--formBackgroundDisabled);
+    color: var(--baseColor)
+}
+
+.readonlyF .customfieldValue.checkBoxF:not(.imguploadDoc)::after,crm-create-subformfields .readonlyF .customfieldValue:not(.imguploadDoc)::after {
+    top: 6px
+}
+
+.FValue:not(.customParentField) .lyteDropdownDisabled .lyteDummyEventContainer:focus .lyte-drop-button,.customfieldValue .cxTextarea.lyteInputReadonly .lyteField:hover .customfieldValue:not(.cuserrorFborder) .cxElementDisabled .cxTextarea .lyteField:hover,.crm-create-fields .cxElementDisabled .lyte-input input:disabled,.crm-create-fields .cxElementDisabled .lyte-input input:disabled:hover,.crm-create-fields .readonlyF .customParentField,.crm-create-fields .readonlyF .customParentField.custHighlBorder:not(.cuserrorFborder),.crm-create-fields .readonlyF .customParentField.highlBorder:not(.cuserrorFborder),.crm-create-fields .readonlyF .customParentField:hover,.crm-create-fields .readonlyF .lcMSelectLookupModalOpen:not(.cuserrorFborder),.crm-create-fields .readonlyF .lyteInputDisabled input,.crm-create-fields .readonlyF .lyteInputDisabled input:hover,.crm-create-fields .reportToreadonlyF .customParentField:hover {
+    border: 1px var(--formBorderDisabled) solid!important;
+    box-shadow: none!important
+}
+
+.customfieldValue .leftZ.errorMsgDesc {
+    right: auto!important;
+    white-space: initial!important;
+    line-height: 1;
+    color: var(--formBorderError)!important
+}
+
+.crm-create-fields .readonlyF .customParentField .lyte-drop-button input,.crm-create-fields .readonlyF .customParentField .lyte-drop-button:hover input,.crm-create-fields .ui786_date .lyte-input input:disabled,.crm-create-fields .ui786_date .lyte-input input:disabled:hover,.crm-create-fields .ui786_time .lyte-input input:disabled,.crm-create-fields .ui786_time .lyte-input input:disabled:hover {
+    border: none!important
+}
+
+crm-create-sections .commentsname {
+    font-size: var(--crm-small-font-size)!important;
+    color: var(--baseColor);
+    text-transform: capitalize
+}
+
+.crm-create-fields .clear_lookupfield.vVIm {
+    display: block
+}
+
+.createAutocomplete lyte-drop-body lyte-drop-item .infoIcoLookupAuto {
+    position: absolute;
+    right: 15px;
+    top: 4px;
+    visibility: hidden;
+    opacity: .4
+}
+
+.createAutocomplete .infoIcoLookupAuto crmutil-icon {
+    pointer-events: none
+}
+
+.createAutocomplete lyte-drop-item:hover .infoIcoLookupAuto {
+    visibility: visible
+}
+
+.createAutocomplete .lookupTxtOverflow {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    background: var(--bg_white);
+    padding-top: 2px;
+    transition: bottom .15s
+}
+
+.accNameDropDownClass lyte-drop-body .lookup-autoc-text,.companyDropDownClass lyte-drop-body .lookup-autoc-text,.createAutocomplete lyte-drop-body .lookup-autoc-text {
+    max-width: calc(100% - 20px);
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.create-inv-product-sys-lookup lyte-drop-body .lookup-autoc-text {
+    white-space: normal
+}
+
+.crm-create-layout .noErrClass {
+    display: none!important
+}
+
+.crm-create-fields crux-boolean-component {
+    margin-bottom: .5rem;
+    margin-top: .7rem
+}
+
+.crm-create-fields crux-boolean-component .lyteCheckbox {
+    padding-bottom: .7rem;
+    padding-top: .7rem
+}
+
+.crm-create-layout .lyteCheckBoxDefault::before,.crm-create-layout .lyteCheckBoxPrimary::before,.crm-create-layout .subFrmLayout .ddCheckbox.spanChecked {
+    box-shadow: none!important
+}
+
+.crm-create-layout .subFrmLayout .ddCheckbox,.crm-create-layout .subFrmLayout .ddCheckbox::before,.crm-create-layout .subFrmLayout lyte-checkbox .lyteCheckbox,crm-create-subformfields .lyteCheckBoxDefault::before,crm-create-subformfields .lyteCheckBoxPrimary::before {
+    margin-right: 0
+}
+
+crm-create-subformfields .lyteCheckBoxDefault span:empty,crm-create-subformfields .lyteCheckBoxPrimary span:empty {
+    display: none
+}
+
+.crm-create-layout crux-user-lookup .lookupSearch {
+    width: auto!important
+}
+
+.crm-create-layout .search-loader {
+    background: url(//img.zohocdn.com/crm/CRMClient/images/crux-search-loader_829992d_.svg) 0 0/100%;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    visibility: hidden
+}
+
+.multiLookupCreate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    width: calc(100% - 32px);
+    color: var(--baseColor);
+    height: 34px
+}
+
+.crm-create-fields .customfieldValue.mandatory::before {
+    content: '';
+    display: inline-block;
+    width: 3px;
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    left: 0;
+    border-radius: 4px 0 0 4px;
+    z-index: 1;
+    border-left: 3px solid var(--formMandatoryBorder);
+    background: 0 0!important
+}
+
+.crm-create-fields .customParentField .mandatoryField .lyteDummyEventContainer::before,.crm-create-fields .customParentField.mandatory::before {
+    left: -1px;
+    bottom: 0;
+    top: 0
+}
+
+.lookupModalColumnList {
+    display: block;
+    position: relative;
+    box-shadow: none
+}
+
+.createTooltipValue .hideOverflow {
+    white-space: nowrap;
+    min-width: 150px;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.createTooltipValue .hideOverflow .numberDivNumberView {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.crm-create-fields .crux-picklist-component lyte-dropdown.cxBoxDropdown[lt-prop-type=multisearch] .lyte-drop-button,.crm-create-fields .crux-picklist-component lyte-dropdown.cxBoxDropdown[lt-prop-type=multisearch] .lyte-drop-button:hover,.crm-create-fields lyte-dropdown[lt-prop-type=multisearch] .lyte-drop-button,.crm-create-fields lyte-dropdown[lt-prop-type=multisearch] .lyte-drop-button:hover {
+    border: 0 solid transparent!important
+}
+
+.crm-create-fields .infoIcoLookupAuto {
+    margin-top: 2px!important
+}
+
+.crm-create-fields input.textField.phoneInputField,crm-create-subformfields input.textField.phoneInputField {
+    margin-bottom: 0!important
+}
+
+.crm-create-fields .createSelect.phoneCCSel.nonLyte_LyteCreate {
+    padding: 0!important;
+    width: auto;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.crm-create-fields .readonlyF .createSelect.phoneCCSel.nonLyte_LyteCreate {
+    pointer-events: none;
+    background: var(--formBackgroundDisabled)
+}
+
+.crm-create-fields .createSelect.nonLyte_LyteCreate .select2-selection--single {
+    padding: 7px 10px;
+    border-radius: 5px!important
+}
+
+.subFrmLayout .ddDropdown::before,.subFrmLayout .ddMultiSelect.noneSpan::after,.subFrmLayout .ddMultiSelectDiv::after,.subFrmTablWrapper .cNfileUpladBtn .cNdropDown .cNArwDown,.crm-create-fields .createSelect .select2-container--default .select2-selection--single .select2-selection__arrow,.crm-create-fields .dropdown-arrow,crm-create-subformfields .createSelect .select2-container--default .select2-selection--single .select2-selection__arrow {
+    background-image: var(--crmLyteSprite);
+    background-position: -225px -698px!important;
+    opacity: .6;
+    transform: scale(1.3);
+    position: static;
+    width: 7px;
+    height: 5px
+}
+
+.crm-create-fields .dropdown-arrow {
+    display: inline-block;
+    opacity: .6;
+    position: absolute;
+    right: 10px;
+    width: 7px;
+    height: 5px;
+    top: calc(50% - 3px)
+}
+
+.crm-create-fields .noImageWrapContainer .uploadedImageList {
+    padding-top: 0
+}
+
+.crm-create-fields .cNfileUpladBtn .dropdown-arrow {
+    top: 14px
+}
+
+.crm-create-fields .noImageWrapContainer .readOnlyLockIcon {
+    right: -32px;
+    left: initial;
+    top: 8px
+}
+
+.crm-create-fields .imageUploadWrap .readOnlyLockIcon {
+    width: 13px;
+    height: 16px
+}
+
+.crm-create-fields .imageUploadWrap .readOnlyLockIcon::after {
+    top: 0;
+    right: 0
+}
+
+.createSelect .select2-container--default .select2-selection--single .select2-selection__arrow {
+    margin-left: 20px!important;
+    margin-right: initial
+}
+
+.crm-create-fields .createSelect .select2-container,crm-create-subformfields .createSelect .select2-container {
+    width: 100%!important
+}
+
+.crm-create-fields .createSelect .select2-selection__rendered {
+    max-width: calc(100% - 10px)!important;
+    overflow: visible!important
+}
+
+.crm-create-fields .readonlyF .cNfileUpladBtn .dropdown-arrow,.crm-create-fields .readonlyF .ui27_dd lyte-icon.dropdown,.crm-create-fields .readonlyF .ui786_date .lyteField::after,.crm-create-fields .ui786_date .lyte-input.lyteInputReadonly .lyteField::after,crm-create-subformfields .readonlyF .ui786_date .lyteField::after {
+    display: none
+}
+
+.crm-create-fields .readonlyF .ui27_dd {
+    background: var(--formBackgroundDisabled)
+}
+
+.crm-create-fields .customParentField .create-customf-inner .ui_icons input {
+    border: none!important
+}
+
+.custom-layout-field {
+    min-height: 34px;
+    height: auto
+}
+
+.custom-nowrap-field .custom-layout-text,.custom-nowrap-field textarea {
+    padding-right: 25px!important;
+    width: 100%;
+    min-height: 34px
+}
+
+.custom-field-multiselect {
+    max-height: 390px;
+    overflow-y: auto
+}
+
+.accountLookDisableList .accountCreateWarn {
+    box-sizing: border-box
+}
+
+.accountLookDisableList {
+    border-radius: 5px!important
+}
+
+.accountLookDisableList lyte-drop-body {
+    margin: 0
+}
+
+.crm-create-fields .clear_lookupfield {
+    visibility: hidden;
+    right: 40px;
+    top: calc(50% - 5px);
+    width: 9px;
+    height: 9px
+}
+
+.crm-create-fields .clear_lookupfield:hover {
+    opacity: 1
+}
+
+.subFrmLookupFld crm-create-subformfields .clear_lookupfield {
+    top: 12px
+}
+
+.crm-create-fields .ZI10001 {
+    z-index: 10001
+}
+
+.crm-create-fields .removemxn {
+    border-bottom: 1px solid #bdc0c3
+}
+
+.crm-create-fields .setmxn {
+    background-color: var(--bg_42a2eb);
+    border: 1px solid var(--br_42a2eb);
+    border-radius: 5px;
+    padding: 5px 10px
+}
+
+.crm-create-fields .mxnCloneValues {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+
+.crm-create-fields .acPopup {
+    background: var(--bg_313949);
+    z-index: 10000
+}
+
+.crm-create-fields .cNfileAttachMenuItem {
+    border-bottom: 1px solid var(--br_dfdfdf);
+    padding: 10px 15px
+}
+
+.customParentField .ui_icons input {
+    padding-left: 0!important
+}
+
+.addLeftPadding.ui_icons input {
+    padding-left: 10px!important
+}
+
+.blackPopover {
+    z-index: 10101
+}
+
+.crm-create-fields .cNfileUpladBtn .cNdropDown {
+    pointer-events: none;
+    top: 7px;
+    right: 2px
+}
+
+.crm-create-fields .readonlyF .cNfileUpladBtn {
+    pointer-events: none
+}
+
+.crm-create-fields .readonlyF .cNfileUpladBtn .cNdropDown,.crm-create-fields .readonlyF .select2-selection__arrow {
+    display: none
+}
+
+.crm-create-fields .cNfileUpladBtn {
+    cursor: default;
+    padding: 0!important;
+    top: 0;
+    border: none!important
+}
+
+.crm-create-fields .cNfileUpladBtn ul {
+    margin-left: 0;
+    padding-top: 3px!important
+}
+
+.crm-create-fields .fileuploaddrop {
+    cursor: text
+}
+
+.crm-create-fields .tabDivCreate.errorFieldP {
+    border-bottom: none!important
+}
+
+.crm-create-fields .cNFileUploadedListView .fileUploadLi {
+    max-width: initial;
+    line-height: 18px
+}
+
+.fileuploaddrop .fileUploadLi .svgIconBoxFileUpload {
+    width: 16px
+}
+
+.crm-create-fields .cNFileUploadedList .closeIcon,.crm-create-fields .cNFileUploadedListView .closeIcon {
+    margin-top: 0
+}
+
+.crm-create-fields .cNFileUploadedList .closeIcon #deletelink,.crm-create-fields .cNFileUploadedListView .closeIcon #deletelink {
+    background: 0 0;
+    margin: 0
+}
+
+.crm-create-fields .readonlyF .createmxnlookupDIV,.crm-create-fields .readonlyF .editModeOwnerdiv,.crm-create-fields .readonlyF .fileUploadLi,.crm-create-fields .readonlyF .uiFieldIcon,.crm-create-fields .readonlyF .uploadDoc lyte-button,.crm-create-fields .reportToreadonlyF .uiFieldIcon {
+    cursor: not-allowed;
+    pointer-events: none
+}
+
+.crm-create-fields .noImageWrapContainer .readOnlyLockIcon,.crm-create-fields .readOnlyFld,.crm-create-fields .readonlyF,.crm-create-fields .readonlyF .cNfileUpladBtn,.crm-create-fields .readonlyF .fileuploaddrop,.crm-create-fields .readonlyF input,.crm-create-fields .readonlyF .lyte-drop-button,.crm-create-fields .readonlyF textarea,.crm-create-fields .reportToreadonlyF {
+    cursor: not-allowed!important
+}
+
+.crm-create-fields .uiFieldIcon .svgIcons:focus-visible,.crm-create-fields .uiFieldIcon .zcrm_svgIcons:focus-visible,.crm-create-fields .uiFieldIcon img:focus-visible,.crm-create-fields lyte-icon.dropdown:focus-visible {
+    outline: auto;
+    color: var(--linkColor);
+    outline-width: thin;
+    outline-offset: 2px
+}
+
+.crm-create-fields .uiFieldIcon .createlookuploader:focus {
+    outline: 0
+}
+
+.create-drop-box lyte-drop-item.colorEnabledSelect2None::before,.create-drop-box lyte-drop-item.lcsytemNoneValue::before {
+    display: none
+}
+
+.lzsurveyNoResults {
+    padding: 8px 20px 8px 25px;
+    color: var(--notfoundColor)
+}
+
+.spreviewDropbox .clearField {
+    right: 22px;
+    top: 19px
+}
+
+.yellowLyteInput input {
+    background-color: var(--bg_fffced)
+}
+
+.popoverWrapper.crm-create-dd-popover .lytePopover {
+    max-width: 480px;
+    padding-top: 10px
+}
+
+.popoverWrapper.crm-create-dd-popover {
+    z-index: 10021
+}
+
+.create-custom-err .create-custom-err-txt1 {
+    margin-right: .5rem
+}
+
+.create-long-err .create-custom-err {
+    position: relative;
+    white-space: normal;
+    overflow-wrap: anywhere
+}
+
+.create-two-column .create-long-err .create-custom-err {
+    max-width: 390px
+}
+
+.crm-create-fields.create-long-err {
+    margin-bottom: 5px
+}
+
+.create-custom-err-temp {
+    visibility: hidden;
+    text-indent: -9999999px;
+    z-index: -1;
+    opacity: 0
+}
+
+.enrichRefreshAlertWrapper button[type=reject] {
+    min-width: 31px;
+    border: solid 1px var(--defaultBorder)!important;
+    padding: 7px 20px;
+    color: var(--baseColor)!important;
+    box-shadow: 0 -1px 0 0 var(--defaultShadow) inset!important;
+    background: linear-gradient(#fcfdff 0,#eaeef5 100%) no-repeat padding-box!important
+}
+
+.subFrmLayout .SubFrmScrolIn {
+    height: 100%
+}
+
+.lc-body-hidden {
+    overflow: hidden;
+    margin-right: 15px
+}
+
+.hide-readonly-icon.lyteInputReadonly .lyteField,.hide-readonly-icon.lyteInputReadonly .lyteField:hover {
+    border: none!important
+}
+
+.hide-readonly-icon.lyteInputReadonly .lyteField input {
+    background: 0 0;
+    cursor: not-allowed
+}
+
+.hide-readonly-icon.lyteInputReadonly .lyteField::after {
+    display: none
+}
+
+.crm-create-fields .crm_phone_field,crm-create-subformfields .crm_phone_field {
+    display: flex
+}
+
+.crm-create-fields .crm_phone_field .phoneInputField,crm-create-subformfields .crm_phone_field .phoneInputField {
+    flex: 1
+}
+
+.readonlyF .multiL .MultiLookupInp,.crm-create-fields .readonlyF .customfieldValue .lyte-button,.crm-create-fields .readonlyF .fieldPrefix {
+    background: var(--formBackgroundDisabled)!important
+}
+
+.readonlyF .customfieldValue.custom-layout-field:not(.imguploadDoc)::after,.readonlyF .multiL .createmxnlookupDIV::after,.crm-create-fields .customFieldValueData::after,.crm-create-fields .cxElementDisabled.cxElementValue .cxBoxInput .lyteField::after,.crm-create-fields .lyteInputDisabled .lyteField::after,.crm-create-fields .readOnlyLockIcon::after,.crm-create-fields .readonlyF .crm_phone_field::after,.crm-create-fields .readonlyF .customfieldValue .lyte-button::after,.crm-create-fields .readonlyF .customfieldValue lyte-icon.dropdown,.crm-create-fields .readonlyicon,crm-create-subformfields .readonlyF .createSelect::after {
+    content: '';
+    background-color: transparent;
+    position: absolute;
+    top: 8px;
+    background-image: var(--crmUtilSprite)!important;
+    background-position: -320px -337px!important;
+    background-repeat: no-repeat;
+    width: 15px!important;
+    height: 16px!important;
+    opacity: .8;
+    right: 8px;
+    transform: scale(1);
+    cursor: not-allowed;
+    display: block!important
+}
+
+.readonlyF crux-user-dropdown .lyteDropdown-disabled .lyte-drop-button::after,.crm-create-fields .cxElementDisabled lyte-dropdown[lt-prop-type=multisearch] .lyte-drop-button::before {
+    opacity: 1!important
+}
+
+.crm-create-fields .cxElementDisabled lyte-dropdown[lt-prop-type=multisearch] .lyte-drop-button::before {
+    display: block!important
+}
+
+.crm-create-fields .readonlyicon {
+    position: relative;
+    margin: 0 0 2px!important;
+    vertical-align: bottom
+}
+
+.who-what-field {
+    padding-left: 185px
+}
+
+.customfieldValue .FValue.addbgC input,.customfieldValue .FValue.addbgC textarea,.crm-create-fields .FValue.addbgC input,.crm-create-fields .FValue.addbgC .lyte-drop-button,.crm-create-fields .addbgC .createSelect.nonLyte_LyteCreate .select2-selection--single {
+    background-color: var(--bg_FFF9C4)!important;
+    transition: 1s
+}
+
+.createTooltipValue .numberDivCurrencyView {
+    text-align: left
+}
+
+.crm-create-fields .colorEnabledPicklist:not(.colorEnabledPKNone) .activitesColor {
+    top: 10px
+}
+
+.colorEnabledPKDropBox .colorEnabledSelect2None .activitesColor,.crm-create-fields .colorEnabledPKNone .activitesColor {
+    display: none
+}
+
+.flex-break {
+    flex-basis: 100%;
+    height: 0
+}
+
+.cf-info-container .mxnclonecontainer {
+    padding: 5px;
+    border: 1px solid var(--infoBrColor);
+    background: var(--infoBgColor);
+    color: var(--baseColor);
+    margin-top: 5px;
+    font-size: var(--crm-small-font-size);
+    border-radius: 6px;
+    line-height: 1.2;
+    box-sizing: border-box
+}
+
+.mxnclonecontainer .bt-smallprimarybtn {
+    color: var(--bg_white);
+    border: none!important;
+    padding-top: 4px;
+    padding-bottom: 5px
+}
+
+.mxnclonecontainer .crmGreenFilledTick {
+    width: 22px;
+    height: 22px
+}
+
+.crm-create-fields .fileIconDefault,.crm-create-fields .fileIconhtml,.crm-create-fields .fileIcontxt,.crm-create-fields .fileIconword,.crm-create-fields .fileIconxml,crm-create-subformfields .fileIconDefault,crm-create-subformfields .fileIconhtml,crm-create-subformfields .fileIcontxt,crm-create-subformfields .fileIconword,crm-create-subformfields .fileIconxml {
+    width: 16px!important
+}
+
+.createCBpopovrWrapper .lytePopover {
+    padding: 5px;
+    box-shadow: 0 2px 15px 2px rgba(0,0,0,.12);
+    word-break: break-all
+}
+
+.customButtonSortable lyte-drop-item[selected=true]::before {
+    display: none
+}
+
+.createCBpopovrWrapper .lytePopoverArrowRight::before {
+    border-left-color: var(--bg_FCFCD9)
+}
+
+.createCBpopovrWrapper .lytePopoverArrowRight::after {
+    content: none
+}
+
+.modalCoverCB .pTop0 {
+    padding-top: 0!important;
+    border-radius: 0 0 4px 4px
+}
+
+.modalCoverCB lyte-button .mR8 {
+    margin-right: 8px!important
+}
+
+.create-titlebar lyte-button {
+    margin-bottom: .5rem
+}
+
+.crm-create-btn-dbox .crmBoxSearchInput {
+    width: 100%
+}
+
+.crm-create-btn-dbox lyte-drop-footer lyte-drop-item {
+    padding: 0!important
+}
+
+.crm-create-btn-dbox lyte-drop-footer lyte-drop-item .drop-item-dummy {
+    padding: 8px 25px;
+    cursor: pointer;
+    display: block
+}
+
+.create_button_comp .cbDropDownIcon {
+    height: 30px;
+    border-radius: 0 5px 5px 0;
+    padding: 6px 18px!important;
+    border-left: var(--defaultBorder) 1px solid;
+    border-right: 0;
+    background: var(--bg_white);
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    background-image: linear-gradient(to bottom,#fcfdff 1%,#eaeef5);
+    position: relative;
+    box-shadow: 0 1px 0 0 var(--defaultShadow)
+}
+
+.create_button_comp .cbDropDownIcon::after {
+    background: url(//img.zohocdn.com/crm/CRMClient/images/sprite_listview_a0fc320_.svg) -98px -22px no-repeat;
+    width: 8px;
+    height: 6px;
+    content: '';
+    border: 0!important;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.cbDropDownIcon:active::after,.cbDropDownIcon:active::after:hover,.create_button_comp .cbDropDownIcon::after {
+    top: 13px
+}
+
+.createBtnDropdown .lvCustomButton {
+    padding: 0;
+    margin-right: 0
+}
+
+.customViewDisabled {
+    opacity: .5
+}
+
+.moreActionsDiv lyte-dropdown {
+    vertical-align: top;
+    margin-right: 5px
+}
+
+.lvCustomButton {
+    background-color: transparent!important;
+    color: var(--defaultColor)!important;
+    border-radius: 6px!important;
+    position: relative;
+    padding: 0;
+    border: 1px solid var(--defaultBorder);
+    box-shadow: 0 1px 0 0 var(--defaultShadow)
+}
+
+.executeCustomButton {
+    padding: 6px 20px 7px!important;
+    background: linear-gradient(#fcfdff 0,#eaeef5 100%) no-repeat padding-box;
+    border-radius: 5px 0 0 5px;
+    border: 0!important;
+    box-shadow: 0 1px 0 0 var(--defaultShadow)!important;
+    max-width: 205px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    font-family: var(--crm-font-semibold)
+}
+
+.create-titlebar .executeCustomButton {
+    line-height: 1.2
+}
+
+.create_button_comp .cbDropDownIcon:hover,.executeCustomButton:hover {
+    background: linear-gradient(#fcfdff 0,#dee5f1 100%) no-repeat padding-box!important
+}
+
+crm-create-buttons lyte-dropdown .lyteDummyEventContainer:focus .lyte-drop-button,crm-create-buttons lyte-dropdown .lyteDummyEventContainer:focus .lyte-drop-button.lyteDropButtonDown,crm-create-buttons lyte-dropdown .lyteDummyEventContainer:focus .lyte-drop-button:hover,crm-create-buttons lyte-dropdown .lyte-drop-button:hover,crm-create-buttons lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button.lyteDropButtonDown,crm-create-buttons lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button.lyteDropButtonUp {
+    border: 1px solid var(--defaultBorder)!important;
+    box-shadow: 0 1px 0 0 var(--defaultShadow)
+}
+
+.heading_title_inner lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button.lyteDropButtonDown,.heading_title_inner lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button.lyteDropButtonUp {
+    box-shadow: 0 0 6px var(--formBoxShadowFocus)!important;
+    border: 1px solid var(--br_3c9df7)!important;
+    border: 1px var(--formBorderFocus) solid!important;
+    border-radius: 5px
+}
+
+.cbDropDownIcon:active,.cbDropDownIcon:active:hover,.executeCustomButton:active,.executeCustomButton:active:hover {
+    top: 1px;
+    box-shadow: var(--defaultShadowActive);
+    position: relative;
+    background: var(--defaultBackgroundActive)
+}
+
+.mH100 {
+    max-height: 100px
+}
+
+.cBTextTrans {
+    text-transform: none!important
+}
+
+.bg_f0f1f3 {
+    background: var(--bg_f0f1f3)
+}
+
+.bg_fdfddc {
+    background: var(--bg_FFF9C4)
+}
+
+#lc_customButtonSortable lyte-drop-item.crmSortablePlaceholder {
+    border: 1px dashed var(--br_c0c6cc)!important;
+    background: var(--bg_EFF1F5)!important
+}
+
+#lc_customButtonSortable lyte-drop-item:not(.crmSortablePlaceholder,.sortable-element-selected).sortableDragElement {
+    background: 0 0!important
+}
+
+#lc_customButtonSortable lyte-drop-item.sortable-element-selected {
+    background-color: var(--bg_EFF1F5)!important
+}
+
+.modalCoverStgDetails #temp_stage #stageVal_div.colorEnabledPicklist {
+    padding: 7.5px 10px 7.5px 33px!important
+}
+
+crm-create-subformsection .subFrmTablWrapper lyte-td .dummyInputFcDiv {
+    border: none;
+    width: 1px!important;
+    max-width: 1px;
+    min-width: 1px;
+    min-height: 1px;
+    max-height: 1px;
+    padding: 0;
+    display: none
+}
+
+.subFrmUserLookupFld crm-create-subformfields .cuserrorFborder,.subFrmUserLookupFld crm-create-subformfields .cuserrorFborder.custHighlSfUlBorder,.subFrmUserLookupFld crm-create-subformfields .cuserrorFborder.custHighlSfUlBorder:hover,crm-create-subformfields .cuserrorFborder .lyte-drop-button,crm-create-subformfields .cuserrorFborder:not(.customfieldValue) .lyteField,crm-create-subformsection .subformAggTable .lyte-input .cuserrorAborder {
+    border: 1px var(--formBorderError) solid!important;
+    box-shadow: none!important
+}
+
+crm-create-subformsection .crmSmallInput.lcAggError .lyteField,crm-create-subformsection .lyte-input.lcAggError .lyteField {
+    border: none!important;
+    box-shadow: none!important
+}
+
+.subFrmUserLookupFld crm-create-subformfields .lyteDropdownLabel,.subFrmUserLookupFld crm-create-subformfields .lyteMarginRight {
+    max-width: 90%
+}
+
+crm-create-subformsection .subFrmTablWrapper lyte-tr:last-child .resultValue {
+    top: auto;
+    bottom: 100%
+}
+
+crm-create-subformsection .textFld .ddSingleLine,crm-create-subformsection .textFld .noWrap {
+    max-width: 100%
+}
+
+crm-create-subformsection .invDefaultProdLookupFLd .ddInvProdLookup,crm-create-subformsection .textFld .ddSingleLine {
+    min-height: 35px
+}
+
+crm-create-subformfields .lyte-input.lyteInputReadonly input {
+    padding-right: 10px!important;
+    cursor: not-allowed
+}
+
+crm-create-subformsection .colorEnabledddDropdown:not(.colorEnabledPKNone) .ddDropdown,crm-create-subformsection .ddSingleLine,crm-create-subformsection .noWrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.createSubFormTable .subFrmFormulaFld.textFld .lyteField::after {
+    transform: scale(.9);
+    top: 6px;
+    right: 4px
+}
+
+#subFaggtablediv lyte-table .lyteTableScroll {
+    overflow: visible
+}
+
+crm-create-subformsection .createSubFormTable lyte-tbody {
+    position: relative;
+    will-change: transform
+}
+
+.createSubFormTable .create-sf-th {
+    position: relative;
+    white-space: nowrap;
+    display: inline-block
+}
+
+.createSubFormTable lyte-td {
+    vertical-align: top
+}
+
+.createSubFormTable .lyteSortableParent lyte-td {
+    cursor: move
+}
+
+.aggCurrencyFld::before {
+    content: attr(inp-prefix);
+    position: absolute;
+    top: 4px;
+    left: 7px
+}
+
+.createSubFormTable lyte-td.bTB:first-of-type,.createSubFormTable lyte-td:last-of-type,.createSubFormTable lyte-th.bTB:first-of-type {
+    border-right: none
+}
+
+.subFrmTablWrapper .sf-drag-icon {
+    display: block;
+    cursor: move;
+    visibility: hidden;
+    top: 6px;
+    margin-top: 6px
+}
+
+.createSubFormTable .ddMultiSelectDiv {
+    padding: 6px 8px 7px;
+    width: 100%
+}
+
+.subFrmTablWrapper .substick {
+    position: fixed;
+    top: 69px;
+    z-index: 8;
+    overflow: hidden;
+    background-color: var(--bg_white);
+    width: 100%;
+    margin-left: -1px
+}
+
+.subFrmUserLookupFld crm-create-subformfields .clear_lookupfield,crm-create-subformfields .create-sf-uicons,crm-create-subformfields .foricons {
+    top: 0;
+    position: relative;
+    right: 0;
+    visibility: hidden;
+    opacity: 0
+}
+
+crm-create-subformfields .foricons {
+    vertical-align: middle
+}
+
+.subformAggTable .sf-edit-icon-wrap,crm-create-subformfields .create-sf-uicons {
+    display: inline-flex;
+    align-items: center;
+    transition: .2s ease-in
+}
+
+.create-det-title.subformMandatory .contHeadInfo::after,.subFrmTablWrapper .mandatoryforothrs::after,.subFrmTablWrapper .newmandatory::after {
+    background: var(--formMandatoryBorder)
+}
+
+.subFrmTablWrapper .mandatoryforothrs::after,.subFrmTablWrapper .newmandatory::after {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 3px;
+    position: absolute;
+    bottom: initial!important;
+    z-index: 1;
+    left: 10px;
+    top: 6px
+}
+
+.create-det-title.subformMandatory .contHeadInfo::after {
+    top: -3px
+}
+
+.sf-edit-hasbg:hover .zcicn-edit-filled-md {
+    fill: var(--linkColor)
+}
+
+.subFrmTablWrapper .mandatoryforothrs::after {
+    top: 6px
+}
+
+.createSubFormTable lyte-th.mandatoryforothrs,.createSubFormTable lyte-th.newmandatory {
+    padding-left: 20px
+}
+
+.createSubFormTable .create-inv-product-sys-lookup.highlBorder .foricons,.createSubFormTable crm-create-subformfields:hover .clear_lookupfield,.createSubFormTable crm-create-subformfields:hover .foricons,.createSubFormTable crm-create-subformfields:hover lyte-autocomplete:not([lt-prop-value = ''])+.uiFieldIcon .clear_lookupfield,.createSubFormTable lyte-tr:hover .create-sf-uicons,.createSubFormTable lyte-tr:hover .foricons,.createSubFormTable lyte-tr:hover .sf-drag-icon,.showSubRowRemoveIcon .subFormDelIcons,.subFrmUserLookupFld crm-create-subformfields:hover .clear_lookupfield {
+    visibility: visible;
+    opacity: 1
+}
+
+crm-create-subformfields lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button {
+    vertical-align: middle;
+    padding-top: 7px
+}
+
+.subFrmSnFld .lyteField input,.subFrmSnFld .sf-sno {
+    padding-left: 10px;
+    cursor: move;
+    text-align: left
+}
+
+.subFrmSnFld .sf-sno {
+    padding-left: 11px
+}
+
+.subFrmSnFld .lyteField {
+    background: 0 0!important
+}
+
+crm-create-subformfields .lyteField,crm-create-subformfields .lyte-input textarea {
+    transition: .2s
+}
+
+crm-create-subformfields .lyte-input[lt-prop-type=textarea] {
+    min-height: 33px;
+    transition: height .3s ease-out
+}
+
+crm-create-subformfields .invDescTextArea,crm-create-subformfields .invDescTextArea textarea {
+    height: 64px
+}
+
+crm-create-subformfields .invDescTextArea textarea {
+    min-height: 66px
+}
+
+crm-create-subformfields .customfieldValue.sfUserLookup {
+    border: 1px solid var(--formBorder);
+    background: var(--bg_white)
+}
+
+crm-create-subformfields .sfUserLookup .clear_lookupfield {
+    top: 1px;
+    height: 9px
+}
+
+crm-create-subformfields lyte-dropdown {
+    width: 100%;
+    vertical-align: top
+}
+
+crm-create-subformfields .custabDivCreate {
+    margin-bottom: 0
+}
+
+crm-create-sections .showSubRowRemoveIcon {
+    display: flex!important
+}
+
+crm-create-sections .currentSubRowRemoveIcon,crm-create-sections .showSubRowRemoveIcon {
+    padding-right: 10px;
+    align-items: center;
+    z-index: 5;
+    left: 10px
+}
+
+crm-create-subformfields .customfieldValue {
+    width: 100%!important;
+    margin-left: 0
+}
+
+crm-create-subformfields .createlookuploader {
+    right: 48px!important;
+    pointer-events: none;
+    height: 24px;
+    background: 0 0
+}
+
+crm-create-subformfields .sublcDateTime .lyteInputBox:hover {
+    z-index: 1
+}
+
+.subFrmMulLinFld .lyteInputBox,.subFrmMulLinFld crm-create-subformfields {
+    width: 100%;
+    display: block
+}
+
+.createSubFormTable .subFrmFileUploadFld,.createSubFormTable .subFrmMulLinFld,.createSubFormTable .subFrmMulSelFld,.createSubFormTable .subFrm_col100,.createSubFormTable .subFrm_col110,.createSubFormTable .subFrm_col3,.createSubFormTable .subFrm_col555 {
+    max-width: initial!important
+}
+
+crm-create-subformfields .lookup_hIconO {
+    right: 30px!important
+}
+
+.createSubFormTable .crm-create-fields .customParentField.custHighlBorder:not(.cuserrorFborder) .uiFieldIcon,.createSubFormTable .crm-create-fields .customParentField.highlBorder:not(.cuserrorFborder) .uiFieldIcon,crm-create-subformfields .customfieldValue.pickListpadding.custHighlSfUlBorder:not(.cuserrorFborder) .uiFieldIcon,crm-create-subformfields .customfieldValue.pickListpadding.highlUlBorder:not(.cuserrorFborder) .uiFieldIcon,crm-create-subformfields .uiFieldIcon {
+    text-align: initial!important;
+    width: 32px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+crm-create-subformfields .crm-create-fields .lyteInputReadonly .lyteField::after {
+    transform: scale(.8);
+    top: 5px;
+    right: 5px
+}
+
+crm-create-subformfields .readonlyF.lyteInputBox .lyteField:hover,crm-create-subformfields .readonlyF.lyteInputFocus .lyteField,crm-create-subformfields .readonlyF.lyteInputFocus .lyteField:hover,crm-create-subformfields .readonlyF.uploadDoc .lyteDefaultBtn:hover {
+    box-shadow: none!important;
+    border: 1px var(--formBorderDisabled) solid!important
+}
+
+.createSubFormTable .crm-create-fields .customParentField.custHighlBorder:not(.cuserrorFborder) .foricons,.createSubFormTable .crm-create-fields .customParentField.highlBorder:not(.cuserrorFborder) .foricons,crm-create-subformfields .customfieldValue.pickListpadding.custHighlSfUlBorder:not(.cuserrorFborder) .foricons,crm-create-subformfields .customfieldValue.pickListpadding.custHighlSfUlBorder:not(.cuserrorFborder) .lookup_hIconO,crm-create-subformfields .customfieldValue.pickListpadding.highlUlBorder:not(.cuserrorFborder) .foricons,crm-create-subformfields .customfieldValue.pickListpadding.highlUlBorder:not(.cuserrorFborder) .lookup_hIconO {
+    visibility: visible!important;
+    opacity: 1
+}
+
+.sf-del-icon-wrap:hover .crmBaseIcon {
+    fill: var(--negativeColor)
+}
+
+.sf-del-icon-wrap {
+    width: 12px;
+    height: 12px
+}
+
+.sf-del-icon-wrap crmutil-icon::after {
+    content: '';
+    position: absolute;
+    left: -50%;
+    width: 24px;
+    height: 24px;
+    top: -50%
+}
+
+crm-create-subformsection .subFrmTablWrapper {
+    overflow: hidden;
+    padding-bottom: 0;
+    z-index: 0;
+    display: inline-block;
+    width: auto;
+    max-width: 100%
+}
+
+crm-create-subformsection .subFrmTablWrapper .createSubFormTable {
+    z-index: 0;
+    width: fit-content
+}
+
+.createSubFormTable lyte-th.lyteFixedColumn:not(.lytePreventIcon)::after {
+    display: none
+}
+
+.subFrmTablWrapper lyte-th.subFrmLookupFld,.subFrmTablWrapper lyte-th.subFrmTxtFld {
+    max-width: none
+}
+
+.subformAggTable .subformAggValue {
+    padding-right: 40px;
+    cursor: default!important;
+    max-width: 250px
+}
+
+.subformAggTable .lyteInputDisabled .lyteField::after,.subformAggTable .lyteInputReadonly .lyteField::after,crm-create-subformfields .lyteInputDisabled .lyteField::after,crm-create-subformfields .lyteInputReadonly .lyteField::after {
+    display: none
+}
+
+.subformAggTable .lyteInputDisabled input,.subformAggTable .lyteInputReadonly input {
+    padding-right: 10px
+}
+
+.crm-create-fields .lyte-input[lt-prop-type=textarea] .lyteField::after,crm-create-subformfields .lyte-input[lt-prop-type=textarea] .lyteField::after {
+    height: 18px;
+    right: -1px;
+    bottom: -1px
+}
+
+.sf-hor-line {
+    border: none;
+    margin: 0 0 10px
+}
+
+.subformAggTable lyte-tr:hover {
+    background: 0 0!important
+}
+
+.subformAggLabel {
+    text-align: right;
+    word-break: break-all;
+    vertical-align: top;
+    padding-top: 20px;
+    cursor: initial
+}
+
+.subFrmLayout .ddSingleLine {
+    color: var(--baseColor);
+    padding: 7px 10px 8px;
+    box-sizing: border-box
+}
+
+.subFrmLayout .ddCheckbox {
+    width: 14px;
+    display: inline-block;
+    left: -2px
+}
+
+.subFrmLayout .ddCheckbox,.subFrmLayout lyte-checkbox .lyteCheckbox {
+    position: relative;
+    top: -1px
+}
+
+.subFrmLayout .ddCheckbox.spanChecked::before {
+    content: '';
+    opacity: 1;
+    box-sizing: border-box;
+    transition: background-color .3s,border .3s,opacity .3s;
+    vertical-align: top!important;
+    top: 2px;
+    position: relative;
+    background-image: none;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border-radius: 2px;
+    background-color: var(--bg_338cf0);
+    border-color: var(--br_338cf0)
+}
+
+.subFrmLayout .ddCheckbox.spanChecked::after {
+    content: '';
+    background-image: var(--crmLyteSprite);
+    background-position: -155px -851px;
+    height: 10px;
+    position: absolute;
+    left: 1px;
+    top: 5px;
+    transition: width .2s;
+    transform: scale(.9);
+    display: block;
+    width: 13px
+}
+
+.subFrmLayout .ddDropdown,.subFrmLayout .ddMultiSelect {
+    padding: 7px 25px 8px 10px;
+    display: block;
+    color: var(--notfoundColor);
+    box-sizing: border-box
+}
+
+.colorEnabledddDropdown:not(.colorEnabledPKNone) .ddDropdown {
+    padding: 7px 25px 8px 28px
+}
+
+.subFrmLayout .ddDropdown::before,.subFrmLayout .ddMultiSelect.noneSpan::after,.subFrmLayout .ddMultiSelectDiv::after {
+    right: 10px;
+    display: inline-block;
+    position: absolute!important;
+    content: ' ';
+    width: 7px;
+    height: 5px;
+    top: calc(50% - 3px);
+    opacity: .6
+}
+
+.colorEnabledddDropdown .ddDropdown::after {
+    right: 12px;
+    top: 13px;
+    transform: scale(1.1);
+    opacity: .7
+}
+
+.subFrmLayout .create_subform_ddsingleLIne .ddDropdown::after {
+    display: none
+}
+
+.subFrmLayout .ddMultiSelect {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box
+}
+
+.invDescTextArea,.subFrmLayout .createDDLookup,.subFrmLayout .ddDropdown,.subFrmLayout .ddMultiSelect,.subFrmLayout .ddMultiSelectLi,.subFrmLayout .ddSingleLine,.subFrmSnFld .sf-sno,.subFrmSnFld .lyte-input.lyteInputReadonly input,crm-create-subformfields .createmxnlookupDIV .MultiLookupInp,crm-create-subformfields .ddInvMultiLine,crm-create-subformfields .lyteDropdownLabel,crm-create-subformfields input,crm-create-subformfields lyte-autocomplete .lyteInputBox input,crm-create-subformsection .ddInvMultiLine {
+    font-size: var(--crm-base-font-size);
+    color: var(--baseColor)
+}
+
+crm-create-subformfields .customParentField,crm-create-subformfields .customParentField input,crm-create-subformfields .customParentField.highlBorder:not(.cuserrorFborder),crm-create-subformfields .select2-container--default .select2-selection--single,crm-create-subformfields crm-phone-field .nonLyte_LyteSForm+.textField {
+    border-radius: 5px!important
+}
+
+.subFrmLayout .createDDLookup,.subFrmLayout .ddDropdown,.subFrmLayout .ddInvMultiLine,.subFrmLayout .ddMultiSelect,.subFrmLayout .ddMultiSelectDiv,.subFrmTablWrapper .cNfileUpladBtn .lyteDefaultBtn,crm-create-subformfields .dummyInvCurrencyClass,crm-create-subformfields .nonLyte_LyteSForm .select2-container--default .select2-selection--single,crm-create-subformsection .ddSingleLine {
+    border: 1px solid var(--br_c0c6cc);
+    border-radius: 5px
+}
+
+.subFrmLayout .ddDropdown.dummyReadOnlyFieldClass::before,.subFrmLayout .ddMultiSelect.dummyReadOnlyFieldClass::after {
+    display: none
+}
+
+crm-create-subformsection .dummy-disabled,crm-create-subformsection .dummy-readonly,crm-create-subformsection .dummyReadOnlyFieldClass {
+    border: 1px var(--formBorderDisabled) solid!important;
+    background: var(--formBgDisabled)
+}
+
+crm-create-subformsection .readonlyF input {
+    background: var(--formBgDisabled)
+}
+
+.subFrmLayout .dummy-readonly .ddCheckbox::before,.subFrmLayout .dummyReadOnlyFieldClass.ddCheckbox::before {
+    border-color: var(--br_d7e2ed);
+    background-color: var(--bg_f0f1f3)
+}
+
+.subFrmLayout .dummyReadOnlyFieldClass.ddCheckbox {
+    border: none!important;
+    background: 0 0
+}
+
+crm-create-subformfields .phoneCCSel::before {
+    border-right: 0
+}
+
+crm-create-subformfields .cNfileUpladBtn .cNdropDown .cNArwDown {
+    top: 0
+}
+
+crm-create-subformfields .lyte-input .lyteField {
+    overflow: hidden
+}
+
+.subFrmLayout .create-placeholder {
+    color: var(--notfoundColor)
+}
+
+.ddInvMultiLine .lyteTextareaResize {
+    right: 3px;
+    bottom: 3px
+}
+
+.subFrmLayout .createDDLookup {
+    line-height: 33px;
+    min-height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box
+}
+
+.subFrmLayout .sf-sno {
+    line-height: 35px
+}
+
+.subFrmLayout .ddMultiSelect.noneSpan {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.subFrmLayout .ddMultiSelectDiv {
+    padding: 6px 8px 0 10px;
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden
+}
+
+.subFrmLayout .ddMultiSelectLi {
+    min-width: 40px;
+    vertical-align: top;
+    max-width: 98%!important;
+    background: var(--bg_e7f2ff);
+    color: var(--baseColor);
+    border: 1px solid var(--br_d9e8f9);
+    margin: 0 3px 5px 0;
+    border-radius: 20px;
+    padding: 0 10px 1px;
+    font-size: var(--crm-extra-medium-font-size);
+    display: inline-block;
+    position: relative;
+    cursor: default;
+    box-sizing: border-box
+}
+
+.subFrmLayout .ddMultiSelectLi.spanCloseicon::after {
+    content: '';
+    background-image: var(--crmSprite);
+    background-position: -186px -397px;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    display: inline-block;
+    top: calc(50% - 4px);
+    right: 4px;
+    opacity: .9;
+    box-sizing: border-box
+}
+
+.subFrmLayout crux-user-dropdown .lyteMultipleSelect .lyteDropdownVisible,.subFrmLayout crux-user-dropdown .lyteMultipleSelect li span {
+    line-height: 16px;
+    font-size: 1.2rem;
+    padding-left: 0
+}
+
+.subFrmLayout .ddMultiSelectDiv::after,.crm-create-fields .lyteMultipleSelect::after,crm-create-sections .lyteMultipleSelect::after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+crm-create-subformsection .subFrmTablWrapper .crmSortablePlaceholder {
+    min-height: 45px!important;
+    background-color: var(--bg_EFF1F5)!important
+}
+
+crm-create-subformsection .subFrmTablWrapper .crmSortablePlaceholder lyte-td {
+    border-top: 1px solid var(--br_c0c6cc);
+    border-bottom: 1px solid var(--br_c0c6cc);
+    border-bottom-style: dashed!important;
+    border-top-style: dashed!important
+}
+
+crm-create-subformsection .subFrmTablWrapper .lyteSortableElem {
+    overflow: hidden;
+    background: var(--bg_white)!important
+}
+
+.subformAggTable .lyteErrorMsg {
+    display: block;
+    left: initial;
+    text-align: right;
+    top: 0;
+    position: relative
+}
+
+.subFrmLayout .create-sf-date,.subFrmLayout .ddDateOnly,.subFrmLayout .ddDateTime,.subFrmLayout .spanTime {
+    min-width: 136px!important
+}
+
+.subFrmLayout .spanDate {
+    max-width: 96px!important
+}
+
+.createSubFormTable .lyteErrorMsg {
+    position: static;
+    white-space: normal;
+    clear: both;
+    display: block;
+    width: 100%
+}
+
+.createSubFormTable .lyteInputBox[lt-prop-disabled=true] .lyteField,.createSubFormTable .lyteInputBox[lt-prop-disabled=true] .lyteField:hover {
+    border: 1px solid transparent!important;
+    opacity: 1;
+    color: var(--baseColor)
+}
+
+crm-create-subformsection .subFrmAggTablWrapper lyte-table>.lyteTableScroll {
+    overflow: visible
+}
+
+crm-create-subformsection .agFiledErrorMsg,crm-create-subformsection .lyteErrorMsg {
+    clear: both;
+    color: var(--negativeColor);
+    font-size: var(--crm-extra-small-font-size);
+    display: block
+}
+
+.createSubFormTable lyte-tr:last-of-type .errorMsgDesc {
+    padding-bottom: 0!important
+}
+
+crm-create-subformsection .create-sf-dt-adjust {
+    min-width: 136px
+}
+
+crm-create-subformfields .crm_phone_field .phoneInputField,crm-create-subformsection .create-sf-dt-adjust {
+    margin-left: 5px
+}
+
+crm-create-subformfields .crm_phone_field .phoneCCSel {
+    min-width: auto!important
+}
+
+crm-create-subformsection .subFrmDateAndTimeFld .lyteInputFocus {
+    z-index: 1
+}
+
+crm-create-subformsection #subFrmaddRowBtn.subDisabledBtn:active,crm-create-subformsection #subFrmaddRowBtn.subDisabledBtn:hover,crm-create-subformsection .subDisabledBtn {
+    border: none!important;
+    background: 0 0!important
+}
+
+crm-create-subformsection .outlineprimary[disabled],crm-create-subformsection .outlineprimaryflat[disabled] {
+    color: var(--linkColor);
+    border: 1px solid var(--br_338cf0);
+    margin-right: 0;
+    background-color: var(--bg_white)
+}
+
+.bs {
+    box-shadow: rgba(128,128,128,.33) 2px 0 4px 3px!important;
+    border: 0!important
+}
+
+.createSubFormTable .crmSortablePlaceholder lyte-td:first-of-type,.createSubFormTable lyte-td.noStyle:first-of-type,.createSubFormTable lyte-tr lyte-th.bTB {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    min-width: 20px
+}
+
+.createSubFormTable .CPQ_Custom_Quoted_Items lyte-td.bTB {
+    width: 24px!important;
+    min-width: 24px!important
+}
+
+crm-create-subformsection .topband_dv_row {
+    transition: none
+}
+
+.createSubFormTable lyte-td.subFrmUserLookupFld.textFld {
+    position: relative;
+    height: 40px
+}
+
+.createSubFormTable .subFrmUserLookupFld.textFld crm-create-subformfields {
+    position: relative;
+    width: 90%
+}
+
+.subformAggTable .sf-edit-icon-wrap {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: calc(100% - 38px);
+    top: 22px;
+    transition: .2s ease-in
+}
+
+.subformAggTable lyte-tr:hover .sf-edit-icon-wrap {
+    visibility: visible;
+    opacity: 1
+}
+
+.sf-edit-hasbg::after {
+    content: '';
+    background: var(--bg_E9EEF4)!important;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 0;
+    border-radius: 15px;
+    opacity: .7;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transform-origin: center center;
+    transition: transform,opacity .15s cubic-bezier(.4, 0, .2, 1)
+}
+
+.sf-edit-hasbg crmutil-icon {
+    z-index: 1;
+    position: relative
+}
+
+.sf-edit-hasbg:hover::after {
+    transform: translate(-50%,-50%) scale(1);
+    opacity: 1;
+    z-index: 0
+}
+
+crm-create-subformsection .ddInvMultiLine {
+    min-height: 51px;
+    max-height: 51px;
+    padding: 7px 10px 4px;
+    overflow: hidden;
+    position: relative;
+    word-break: break-word;
+    white-space: pre-line
+}
+
+crm-create-subformsection .ddInvMultiLinePH {
+    color: var(--notfoundColor)
+}
+
+crm-create-subformsection .dummyInvCurrencyClass.ddSingleLine {
+    width: calc(100% - 30px)!important
+}
+
+.sf-hcard-td {
+    vertical-align: top;
+    word-break: break-word
+}
+
+.sf-hcard-label {
+    white-space: nowrap;
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.sf-hovercard-popover #lytePopoverArrow {
+    display: none
+}
+
+.sf-hovercard-popover .sf-hcard-sep {
+    min-width: 5px!important
+}
+
+.crm-create-dd-popover lyte-table,.sf-hovercard-popover lyte-table {
+    border: none
+}
+
+.sf-hovercard-popover .sf-hcard-td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 0
+}
+
+.crm-create-dd-popover lyte-table .createTooltipLabel,.crm-create-dd-popover lyte-table .createTooltipValue {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 0;
+    font-size: var(--crm-small-font-size)
+}
+
+.createTooltipLabel {
+    white-space: nowrap;
+    max-width: 160px;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.sf-salesorder-hcard .sf-hcard-td {
+    color: var(--baseColor)
+}
+
+.sf-salesorder-hcard .sf-salesorder-row:last-of-type {
+    margin-bottom: 0!important
+}
+
+.sf-hovercard-popover lyte-tr:last-of-type lyte-td {
+    border-bottom: none
+}
+
+.pricing-details-tbl lyte-td {
+    vertical-align: top
+}
+
+.pricing-details-tbl crmutil-icon {
+    border-radius: 8px;
+    overflow: hidden
+}
+
+crm-create-subformfields .crm-create-fields .readonlyF .customfieldValue::after,crm-create-subformfields .crm-create-fields .readonlyF .uiFieldIcon {
+    display: none
+}
+
+.subFrmTablWrapper .customfieldValue {
+    margin-left: 0
+}
+
+crm-create-subformfields .crm-create-fields .readonlyF .lyte-input {
+    background: var(--bg_white)
+}
+
+.subFrmLookupFld crm-create-subformfields .crm-create-fields .createFieldsInput {
+    width: calc(100% - 20px)!important
+}
+
+crm-create-subformfields .customParentField.ui-field-icon {
+    overflow: hidden
+}
+
+.subFrmTablWrapper .cNFileUploadedListView .fileUploadLi {
+    max-width: initial;
+    line-height: 18px
+}
+
+.subFrmFileUploadFld .cNfileUpladBtn,crm-create-subformfields .cNfileUpladBtn {
+    cursor: default;
+    padding: 0!important;
+    width: 100%!important;
+    top: 0
+}
+
+.subformReadOnlyCursor {
+    cursor: no-drop!important
+}
+
+crm-create-subformfields .cNFileUploadedListView .closeIcon {
+    right: 0;
+    left: auto
+}
+
+.subFrmFileUploadFld crm-create-subformfields .readonlyF {
+    cursor: not-allowed;
+    pointer-events: none
+}
+
+.subFrmFileUploadFld .readonlyF .cNdropDown {
+    display: none
+}
+
+.subFrmFileUploadFld .readonlyF .lyte-button {
+    background: var(--formBackgroundDisabled)!important
+}
+
+.subFrmTablWrapper .cNfileUpladBtn lyte-button {
+    display: block;
+    margin: 0
+}
+
+crm-create-subformfields crm-phone-field .nonLyte_LyteSForm .select2-container--default .select2-selection--single,crm-create-subformfields crm-phone-field .nonLyte_LyteSForm+.textField {
+    padding: 6px 10px 7px!important
+}
+
+crm-create-subformfields .select2-container--default.select2-container--disabled .select2-selection--single,crm-create-subformfields crm-phone-field [data-readonly=true] {
+    background: var(--formBgDisabled)!important;
+    pointer-events: none;
+    cursor: not-allowed
+}
+
+crm-create-subformfields .select2-container--default.select2-container--disabled .selection {
+    cursor: not-allowed
+}
+
+crm-create-subformfields .uploadDoc lyte-button .lyteDefaultBtn:hover,crm-create-subformfields crm-phone-field .select2-selection--single:hover,crm-create-subformfields crm-phone-field .textField:hover {
+    border: 1px var(--formBorderHover) solid!important
+}
+
+.subFrmFileUploadFld .uploadDoc lyte-button .lyteDefaultBtn:focus {
+    box-shadow: 0 0 6px var(--formBoxShadowFocus)!important;
+    border: 1px var(--formBorderFocus) solid!important
+}
+
+.subFrmTablWrapper .cNfileUpladBtn .cNdropDown {
+    right: 2px!important;
+    top: 4px
+}
+
+.subFrmTablWrapper .attachDropMenuRow.closeIcon {
+    margin: 0
+}
+
+crm-create-subformfields .fileuploaddrop {
+    cursor: text
+}
+
+crm-create-subformfields .cNfileUpladBtn span.cNdropDown {
+    pointer-events: none;
+    right: 2px
+}
+
+crm-create-subformfields .disable {
+    pointer-events: none;
+    border: 1px solid var(--formBorderDisabled);
+    box-shadow: 0 -1px 0 0 var(--defaultShadow) inset;
+    background: var(--formBackgroundDisabled);
+    color: var(--A2A9B7);
+    opacity: 1!important
+}
+
+.createSubFormTable .subFrmFormulaFld input,.subFrmCurncyFld crm-create-subformfields .lyte-input[lt-prop-type=text] input,.subFrmDecimalFld crm-create-subformfields .lyte-input[lt-prop-type=text] input,.subFrmLongIntFld crm-create-subformfields .lyte-input[lt-prop-type=text] input,.subFrmNumbFld crm-create-subformfields .lyte-input[lt-prop-type=text] input {
+    text-align: right
+}
+
+.createSubFormTable lyte-tr:last-of-type lyte-td {
+    padding-bottom: 13px!important
+}
+
+crm-create-subformfields .crm-create-fields {
+    margin-bottom: 0;
+    cursor: default
+}
+
+crm-create-subformfields crux-user-dropdown .lyte-drop-button,crm-create-subformfields crux-user-dropdown lyte-dropdown .lyte-drop-button:hover {
+    border: none!important;
+    box-shadow: none!important
+}
+
+crm-create-subformfields .pickListpadding lyte-dropdown {
+    width: 80%;
+    vertical-align: top
+}
+
+.subFrmUserLookupFld crm-create-subformfields .pickListpadding lyte-dropdown,crm-create-subformfields .sfUserLookup .outerDropdown.lyteDropdownDisabled {
+    width: 100%
+}
+
+.subFrmUserLookupFld crm-create-subformfields .cuserrorFborder .lyte-drop-button,.subFrmUserLookupFld crm-create-subformfields .cuserrorFborder .lyte-drop-button:hover {
+    border: none!important
+}
+
+.subformAggTable .sfHeaderCurrency {
+    max-height: 18px;
+    display: inline-block;
+    opacity: .6
+}
+
+.subFrmTablWrapper .lyteTextareaResize {
+    z-index: 4
+}
+
+.subFrmTablWrapper .lyte-input[lt-prop-type=textarea] .lyteField::after {
+    z-index: 2
+}
+
+.subFrmLayout .ddDropdown {
+    position: relative
+}
+
+.colorEnabledPKDropBox .colorEnabledSelect2None .activitesColor,crm-create-subformfields .colorEnabledPKNone .activitesColor {
+    display: none
+}
+
+.colorEnabledPKDropBox .activitesColor {
+    top: calc(50% - 7px);
+    left: 25px
+}
+
+crm-create-subformfields .crm-create-fields .customParentField.mandatory::before {
+    display: none
+}
+
+.crm-create-fields crux-user-dropdown .lyte-drop-button {
+    border: none!important;
+    box-shadow: none!important
+}
+
+.invSubdiscountPopWrapper .sf-err {
+    margin-top: -12px
+}
+
+.invDescTextArea textarea {
+    max-height: 165px
+}
+
+crm-create-subformfields .FlookupPrice_Books {
+    display: inline-block
+}
+
+.invSubdiscountPopWrapper lyte-number.discountDivSelected .lyteField {
+    border: 1px solid var(--formBorderFocus)!important;
+    box-shadow: 0 0 6px var(--formBorderFocus)!important
+}
+
+.create-inv-sf-currency {
+    width: calc(100% - 30px);
+    display: inline-block;
+    vertical-align: middle
+}
+
+crm-create-subformfields crmutil-icon {
+    vertical-align: top
+}
+
+crm-create-subformfields .zcicn-pricebooks {
+    vertical-align: middle
+}
+
+.create-inv-sf-currency .foricons,crm-create-subformfields .create-inv-sf-currency .FlookupPrice_Books {
+    top: -5px;
+    display: inline-block
+}
+
+.invDefaultProdLookupFLd input {
+    position: relative
+}
+
+.create-sf-uicons.isCpqReviewReadonlystyle {
+    pointer-events: none;
+    display: none
+}
+
+.sf-dummy-div {
+    display: inline-block;
+    box-sizing: border-box;
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0;
+    padding-left: 10px;
+    position: absolute!important
+}
+
+.create-inv-product-sys-lookup .uiFieldIcon,.sf-dummy-div,crm-create-subformsection .invDefaultProdLookupFLd .ddInvProdLookup {
+    align-items: flex-start!important
+}
+
+.create-inv-product-sys-lookup .uiFieldIcon .foricons {
+    top: 9px
+}
+
+.create-inv-product-sys-lookup .uiFieldIcon .clear_lookupfield {
+    top: 13px!important;
+    right: 30px!important
+}
+
+.create-inv-product-sys-lookup .lyteField textarea,.sf-dummy-div,.subFrmLayout .ddInvProdLookup {
+    font-family: var(--crm-font-bold);
+    position: relative;
+    min-height: 33px;
+    white-space: normal;
+    overflow: initial;
+    line-height: normal!important;
+    word-break: break-word;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 70px!important;
+    transition: none!important;
+    box-sizing: border-box
+}
+
+.create-inv-product-sys-lookup .lyteField .lyteTextareaResize,.create-inv-product-sys-lookup .lyteField::after {
+    display: none!important
+}
+
+.create-inv-product-sys-lookup .lyteField textarea {
+    resize: none;
+    overflow: hidden
+}
+
+.zcrm-cpq-gs-module {
+    border-radius: 10px;
+    background-color: var(--bg_F0F4FF);
+    border: 1px var(--br_D2D9E0) solid;
+    padding: 1px 8px
+}
+
+.zcrm-cpq-gs-divider {
+    width: 1px;
+    background-color: var(--br_c0c6cc);
+    display: inline-block;
+    margin: 0 8px
+}
+
+.zcrm-cpq-gs-borBtmGrey {
+    border-bottom: 1px var(--br_d7e2ed) solid
+}
+
+.zcrm-cpq-gs-qa {
+    height: calc(100% - 106px)
+}
+
+.zcrm-cpq-questionbox-input,.zcrm-cpq-questionbox-input textarea {
+    height: 135px!important
+}
+
+.zcrm-cpq-gs-qa .zcrm-cpq-gs-questiontitle {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px var(--br_d7e2ed) solid;
+    min-width: 340px;
+    height: 100%
+}
+
+.zcrm-cpq-gs-qa .zcrm-cpq-gs-askQuestion {
+    width: 100%;
+    background-color: var(--bg_white);
+    padding: 30px 210px 0 100px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+@media screen and (min-width: 1900px) {
+    .zcrm-cpq-gs-qa .zcrm-cpq-gs-askQuestion {
+        width:65%
+    }
+}
+
+.zcrm-cpq-gs-questiontitle .zcrm-cpq-gs-btnLayer {
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.3)
+}
+
+.zcrm-cpq-gs-questiontitle .zcrm-cpq-gs-qaDiv {
+    background-color: var(--bg_F8FAFF);
+    height: calc(100% - 50px);
+    overflow-y: auto
+}
+
+.zcrm-cpq-gs-questiontitle-ul .zcrm-cpq-gs-qs-title {
+    border: 1px var(--br_D2D9E0) solid;
+    border-radius: 5px;
+    background-color: var(--bg_white);
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .1s linear;
+    position: relative
+}
+
+.zcrm-cpq-gs-questiontitle-ul .zcrm-cpq-gs-qs-title:hover {
+    border-color: var(--br_338cf0)
+}
+
+.zcrm-cpq-gs-questiontitle-ul .zcrm-cpq-gs-qs-title span:first-child {
+    padding: 7px 0;
+    border-right: 1px var(--br_D2D9E0) solid;
+    min-width: 33px;
+    text-align: center
+}
+
+.zcrm-cpq-gs-questiontitle-ul .zcrm-cpq-gs-qs-title span:nth-child(2) {
+    padding: 7px 11px
+}
+
+.zcrm-cpq-gs-questiontitle-ul .zcrm-cpq-gs-qs-title.active,.zcrm-cpq-gs-questiontitle-ul .zcrm-cpq-gs-qs-title.active span:first-child {
+    border-color: var(--linkColor)
+}
+
+.zcrm-cpq-gs-questiontitle-ul .zcrm-cpq-gs-qs-title.active {
+    background-color: var(--neutralBgColor)
+}
+
+.zcrm-cpq-gs-questiontitle-ul .zcrm-cpq-gs-qs-title.active:before {
+    content: '';
+    width: 0;
+    position: absolute;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 7px solid var(--linkColor);
+    top: 50%;
+    transform: translateY(-50%);
+    right: -7px
+}
+
+.zcrm-cpq-gs-questiontitle-ul .zcrm-cpq-gs-qs-title.active:after {
+    content: '';
+    width: 0;
+    position: absolute;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 6px solid var(--neutralBgColor);
+    top: 50%;
+    transform: translateY(-50%);
+    right: -5px
+}
+
+.zcrm-cpq-gs-addremove .zcrm-cpq-gs-add,.zcrm-cpq-gs-addremove .zcrm-cpq-gs-remove {
+    cursor: pointer;
+    position: relative;
+    transform: scale(.8)
+}
+
+.zcrm-cpq-gs-charcount {
+    padding: 0 15px;
+    box-sizing: border-box;
+    flex-direction: row-reverse
+}
+
+.zcrm-cpq-gs-qtitle {
+    flex: 3;
+    background-color: var(--bg_F8FAFF);
+    border-right: 1px var(--br_d7e2ed) solid
+}
+
+.zcrm-cpq-gs-options {
+    width: calc(100% - 380px);
+    flex: 10;
+    max-height: 700px
+}
+
+.zcrm-cpq-gs-prev-questiontitle-ul {
+    max-height: calc(100vh - 320px);
+    overflow-y: scroll
+}
+
+.zcrm-cpq-gs-prev-questiontitle-ul .zcrm-cpq-gs-qs-title {
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: .1s linear
+}
+
+.zcrm-cpq-gs-prev-questiontitle-ul .zcrm-cpq-gs-qs-title span:first-child {
+    padding: 7px 0;
+    border: 1px var(--br_d7e2ed) solid;
+    min-width: 32px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    background-color: var(--fff)
+}
+
+.zcrm-cpq-gs-prev-questiontitle-ul .zcrm-cpq-gs-qs-title span:nth-child(2) {
+    padding: 7px 12px
+}
+
+.zcrm-cpq-gs-prev-questiontitle-ul .zcrm-cpq-gs-qs-title:hover>span {
+    border-color: var(--666)
+}
+
+.zcrm-cpq-gs-prev-questiontitle-ul .zcrm-cpq-gs-qs-title.active span:first-child,.zcrm-cpq-gs-prev-questiontitle-ul .zcrm-cpq-gs-qs-title.active_prev span:first-child {
+    background-color: var(--greenLightBg);
+    border-color: var(--greenLightBr)
+}
+
+.zcrm-cpq-gs-statusActive {
+    background-color: var(--greenBgFlag)
+}
+
+.zcrm-cpq-gs-statusInActive {
+    background-color: var(--negativeColor)
+}
+
+.zcrm-cpq-gs-notfoundClr {
+    color: var(--notfoundColor)
+}
+
+.zcrm-cpq-gs-removeIcon {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    transform: scale(.8);
+    visibility: hidden
+}
+
+.zcrm-cpq-gs-removeIcon:hover {
+    opacity: 1
+}
+
+.zcrm-cpq-gs-questiontitle-ul .zcrm-cpq-gs-qs-title:hover .zcrm-cpq-gs-removeIcon {
+    visibility: visible
+}
+
+#gsPreviewCriteria .cxAddRemoveTd {
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
+    display: none
+}
+
+.zcrm-cpq-gs-previewPopMaxHeight {
+    max-height: calc(100vh - 410px)
+}
+
+.zcrm-cpq-gs-wh7px {
+    width: 7px;
+    height: 7px
+}
+
+.zcrm-cpq-gs-previewPopMaxHeight lyte-th {
+    padding: 12px
+}
+
+.zcpq_gscriteriaDiv {
+    max-height: calc(100vh - 415px);
+    overflow-y: scroll
+}
+
+.cxCriteriaBoxStyle .cxCriteriaBoxStyle {
+    padding-bottom: 3px
+}
+
+#gsPreviewCriteria .cx_fieldDropdownLabel .dropdown {
+    display: none
+}
+
+#gsPreviewCriteria .cx_fieldDropdownLabel .lyteDropdownLabel {
+    max-width: 100%
+}
+
+#gsPreviewCriteria .criteriaRow .criteriaTd:nth-child(2) {
+    width: 210px
+}
+
+#gsPreviewCriteria .criteriaRow .criteriaTd:nth-child(2) .lyteDropdownLabel {
+    max-width: calc(100% - 5px)
+}
+
+.zcrm-cpq-getNameDescContainer .gNDname input {
+    max-width: 500px;
+    overflow: auto;
+    height: 33px;
+    padding: 3px 3px 3px 6px
+}
+
+.cpqPcName .gNDname input {
+    color: var(--4a4a4a);
+    font-family: var(--crm-font-bold)
+}
+
+.gNDname .cxBorderBottom {
+    padding: 7px 10px 8px!important
+}
+
+.cxElementDisabled .cxBoxInput.gNDname .cxBorderBottom {
+    padding-right: 32px!important
+}
+
+.cpqgsNoResultsFound {
+    color: var(--notfoundColor);
+    border: 1px var(--br_d7e2ed) solid;
+    border-radius: 10px
+}
+
+.zcrm-cpq-gs-gap5 {
+    gap: 5px
+}
+
+.zcrm-cpq-gs-gap10 {
+    gap: 10px
+}
+
+.zcpqgsTextarea .lyteErrorBorder {
+    overflow: visible!important
+}
+
+.zcrm-cpq-gs-startmandate {
+    color: var(--negativeColor);
+    margin-right: 5px;
+    vertical-align: sub
+}
+
+#GSProductResultstable lyte-td:first-child,#GSProductResultstable lyte-th:first-child {
+    width: 30px
+}
+
+.zcpq_more_body_item .zgs_mw_calc {
+    max-width: calc(100% - 25px)
+}
+
+.zcpq_more_body_item .zcpqGsInfo {
+    transform: scale(.8);
+    visibility: hidden;
+    margin-left: 10px
+}
+
+.zcpq_more_body_item:not(.disabled):hover .zcpqGsInfo {
+    visibility: visible
+}
+
+#GSProductResultstable .cxCommonTable {
+    border: none
+}
+
+.zcrm-cpq-gs-prev-questiontitle-ul .zcrm-cpq-gs-qs-title .cpq_gsFont {
+    font-family: var(--crm-font-regular)
+}
+
+.zcrm-cpq-gs-prev-questiontitle-ul .zcrm-cpq-gs-qs-title.active .cpq_gsFont {
+    font-family: var(--crm-font-bold)
+}
+
+crm-create-avatarupload .lnUpPhotoHover #imgContainer img,crm-create-avatarupload .opacityImage {
+    opacity: 1!important
+}
+
+crm-create-avatarupload .lnPhoto.lnPhoto_ziaVision {
+    pointer-events: all
+}
+
+crm-create-avatarupload .lnPhoto.lnPhoto_ziaVision #imgContainer img {
+    opacity: 0
+}
+
+.lookupTable lyte-modal-content {
+    padding: 20px 25px
+}
+
+.lookupTable lyte-th {
+    padding: 10px 0 10px 20px;
+    background: var(--bg_white);
+    font-size: 1.2rem;
+    text-align: left;
+    border-top: 1px solid;
+    font-family: var(--crm-font-bold)!important
+}
+
+.lookupTable lyte-td {
+    word-break: break-all;
+    color: var(--baseColor)!important;
+    width: 180px;
+    padding: 7px 0 7px 20px;
+    vertical-align: top;
+    border-bottom: 1px solid var(--br_d7e2ed);
+    cursor: default;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 400
+}
+
+.lookupTable lyte-table:not(.infinitescroll) lyte-tr:hover {
+    background: var(--bg_white)
+}
+
+.LookupModal lyte-modal-header {
+    padding: 20px 0 10px
+}
+
+.LookupModal .lyteModalClose {
+    right: 40px;
+    top: 30px
+}
+
+.LookupModal .lyteNavigatorText {
+    margin: 0 5px
+}
+
+.LookupModal .pp-footer {
+    text-align: left!important
+}
+
+.LookupModal .lookupCriteriaLabelCol,.LookupModal .lookupCriteriaLabelWrap {
+    padding: 0
+}
+
+.modalHeaderPadding {
+    padding: 0 35px 20px
+}
+
+.fwNormal {
+    font-weight: 400
+}
+
+.mlSelectedRecordCount {
+    background: var(--bg_EDF0F4);
+    color: var(--paragraphColor);
+    border-radius: 10.5px;
+    line-height: 13px;
+    padding: 2px 10px 0;
+    display: inline-block;
+    position: static!important
+}
+
+.cursorDefault * {
+    cursor: default!important
+}
+
+.lookupTagClass * {
+    white-space: pre-line;
+    cursor: default!important
+}
+
+.userSelectN {
+    user-select: none
+}
+
+.lookupSearch .searchIcon {
+    cursor: pointer
+}
+
+.LookupModal {
+    transform: translate3d(0,0,0)
+}
+
+.LookupModal .lyteModal {
+    max-height: 80%;
+    height: auto!important
+}
+
+.LookupModal .lookupFieldList lyte-th:not(:first-child) {
+    min-width: 200px
+}
+
+.lookupFieldList lyte-th:first-child {
+    box-shadow: 3px 0 7px -2px rgba(0,0,0,.2)!important
+}
+
+.lookupFieldList lyte-td:first-child {
+    box-shadow: 2px 2px 4px rgba(0,0,0,.2)!important
+}
+
+.lookupFieldList lyte-th:last-of-type {
+    padding-right: 35px!important
+}
+
+.lookupCriteriaFilter {
+    padding: 7px 10px 10px 20px;
+    border-top: 1px solid #e3e3e3
+}
+
+.lookupFieldList lyte-thead lyte-tr:hover {
+    background-color: var(--bg_white)
+}
+
+.lookupFieldList lyte-td:first-child,.lookupFieldList lyte-th:first-child {
+    width: 30px!important
+}
+
+.lookupFieldList lyte-table-structure.bigLookupTable {
+    width: calc(100% + 900px)!important
+}
+
+.lookupCriteriaFilter lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button {
+    padding: 1px 0 1px 5px!important;
+    font-size: 1.4rem;
+    width: 150px;
+    background: var(--bg_white);
+    border: 1px solid var(--ddd)!important;
+    display: inline-flex
+}
+
+.lookupCriteriaFilter lyte-dropdown:not([lt-prop-type=multiple]):not([lt-prop-type=multisearch]) .lyte-drop-button .lyteMarginRight {
+    display: inline-block;
+    width: 125px;
+    white-space: initial
+}
+
+.lookupCriteriaFilter .lyte-drop-button lyte-icon.dropdown {
+    background: var(--crmSprite) -268px -428px no-repeat;
+    width: 8px;
+    height: 4px;
+    right: 5px
+}
+
+.modalCruxtable .criteria-yes {
+    background: transparent var(--crmSprite) no-repeat -283px -34px;
+    display: inline-block;
+    padding: 0!important;
+    width: 12px;
+    height: 8px;
+    cursor: default
+}
+
+crm-create-pricingdetails .pricingDet .hrow1 input {
+    width: 100%!important
+}
+
+.pderrorField .pdtdDiv .lyteField,.pderrorField .pdtdDiv .lyteInputFocus .lyteField {
+    border-color: var(--br_e43c2f)!important;
+    box-shadow: none
+}
+
+crm-create-pricingdetails .pderrorField .pdtdDiv .errorMsgDesc {
+    line-height: 1;
+    white-space: initial
+}
+
+crm-create-pricingdetails .pricingDetailsReadonly {
+    cursor: not-allowed!important
+}
+
+crm-create-recurringactivity .labelTabCreate {
+    width: 38.9%!important
+}
+
+.newLabl {
+    padding: 0!important
+}
+
+.newLabl .lyte-input:not(.lyteInputBox) {
+    border: 0!important
+}
+
+.newLabl lyte-dropdown .lyteDummyEventContainer .lyte-drop-button {
+    border: 0;
+    padding-left: 0!important
+}
+
+crm-create-recurringactivity .Reccuactivitydiv {
+    width: 37.5%!important
+}
+
+crm-create-recurringactivity .lyteRadioBtn .lyteRadioLabel {
+    font-size: var(--crm-extra-medium-font-size)!important
+}
+
+crm-create-recurringactivity .lyteRadioBtn .lyteRadioLayer {
+    width: 15px!important;
+    height: 15px!important
+}
+
+.lyteRadioBtn .lyteRadioLayer:after,crm-create-recurringactivity .lyteRadioBtn .lyteRadioLayer .lyteRadioCheck {
+    width: 7px!important;
+    height: 7px!important;
+    top: 3px;
+    left: 3px
+}
+
+crm-create-recurringactivity .rad:hover .lyteRadioLayer {
+    border-color: var(--br_338cf0)
+}
+
+crm-create-recurringactivity lyte-drop-header .lyteField {
+    padding: 0!important
+}
+
+.invSubdiscountPopWrapper .directPrice .lyteField,.invSubdiscountPopWrapper .discPc .lyteField {
+    color: var(--baseColor);
+    border-radius: 2px;
+    border: 1px solid var(--br_ddd)!important
+}
+
+.invSubdiscountPopWrapper .sf-inventory-row {
+    line-height: 28px;
+    width: 100%
+}
+
+.invSubdiscountPopWrapper .sf-inventory-row:last-of-type {
+    padding-bottom: 10px
+}
+
+.invSubdiscountPopWrapper .directPrice .lyteField input,.invSubdiscountPopWrapper .discPc .lyteField input {
+    padding: 4px 8px 3px;
+    border: none;
+    width: 60px
+}
+
+.invSubTaxPopWrapper .taxPercentage_box .lyteField {
+    border: 0;
+    width: 35px
+}
+
+.inv-tax-container .taxVal {
+    min-width: 85px
+}
+
+.invSubTaxPopWrapper .taxPercentage_box {
+    align-items: center
+}
+
+.invSubTaxPopWrapper .taxPercentage_box .lyteField,.taxPercentage_box_bg {
+    background: var(--formBgDisabled)
+}
+
+.invSubTaxPopWrapper .taxPercentage_box_bg.row-active .lyteField,.taxPercentage_box_bg.row-active {
+    background: var(--bg_white)
+}
+
+.inv-tax-container,.sf-inventory-container {
+    max-height: 280px;
+    --lc-taxpop-label-width: 145px
+}
+
+.inv-tax-container .taxRow lyte-checkbox {
+    width: var(--lc-taxpop-label-width)
+}
+
+.taxPercentage_box_parent .lyteInputBox.lyteInputFocus .lyteField {
+    box-shadow: none
+}
+
+.inv-tax-container .taxRow .lyteCheckBoxDefault,.inv-tax-container .taxRow .lyteCheckbox {
+    width: 100%;
+    vertical-align: middle
+}
+
+.inv-tax-container .taxRow .lyteCheckbox span {
+    width: calc(100% - 24px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.inv-tax-container .taxRow .lyteCheckbox,.inv-tax-container .taxRow .lyteDefault {
+    margin-top: 4px
+}
+
+.sf-inventory-row lyte-radiobutton {
+    max-width: calc(100% - 102px)
+}
+
+.sf-inventory-row lyte-radiobutton label {
+    width: 100%;
+    display: block
+}
+
+.sf-inventory-row .lyteRadioLabel {
+    padding-left: 25px;
+    width: calc(100% - 25px)
+}
+
+.sf-inventory-row .lyteRadioLayer {
+    position: absolute;
+    top: 6px
+}
+
+.sf-inventory-row .lyteRadioLabel .rbCheckHtml {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    margin-right: 0
+}
+
+.invSubTaxPopWrapper .taxPercentage_box .lyteField input {
+    padding: 0;
+    min-width: 5px;
+    min-height: 21px;
+    text-align: right
+}
+
+.invSubTaxPopWrapper .taxPercentage_box_parent {
+    display: inline-flex;
+    align-items: flex-start;
+    width: calc(100% - var(--lc-taxpop-label-width))
+}
+
+.invSubTaxPopWrapper .lyteInputDisabled .lyteField:hover {
+    border: none
+}
+
+.invSubTaxPopWrapper .cf-tax-err {
+    margin-left: 130px;
+    color: var(--negativeColor)
+}
+
+.invSubTaxPopWrapper .lyteInputDisabled .lyteField::after {
+    display: none
+}
